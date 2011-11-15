@@ -62,6 +62,12 @@ function App(parametre1, parametre2)
       // this.scrollNav.smoothDivScroll("moveToElement", "number", 2);
     });
 
+    // MiniFrieze Movements
+    $("#navBar a").click(function() {
+      linkTitle = "#" + this.title;
+      self.moveToPosition($(linkTitle).position().left);
+    });
+
     // INIT the app
 
     return true;

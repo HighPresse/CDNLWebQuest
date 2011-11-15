@@ -154,3 +154,16 @@ div#animateTest a{
     color:white;
     font-size:1em;
 }
+
+div#navBar {
+	margin-top:-20px;
+	margin-left:30px;
+	position:fixed;
+	background:#DDD;
+	height:15px;
+}
+div#navBar a {
+	font-size:20px;
+	margin-right:50px;
+	line-height:5px;
+}
