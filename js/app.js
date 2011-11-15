@@ -2,8 +2,30 @@ function App(parametre1, parametre2)
 {
   // Properties
   this.scrollNav = $("div#makeMeScrollable");
+  this.scrollWrapper = $(".scrollWrapper");
+  this.configs = {
+    animate_duration: 1000
+  };
   // this.autoloadFiles = ["app/start_page.js"];
   this.appWindow = {};
+
+  //
+  // Move to
+  //
+  this.moveToPosition = function(posX, callback)
+  {
+    var self = this;
+    $(".scrollWrapper").animate({
+        scrollLeft: posX
+      }, {
+        duration: self.configs.animate_duration,
+        complete: function() {
+          // TODO, call a callback)
+        }
+    });
+    // $("div#makeMeScrollable").smoothDivScroll("moveToElement", "number", 2);
+    // this.scrollNav.smoothDivScroll("moveToElement", "number", 2);
+  }
 
   //
   // initialize the App on load of Window
@@ -13,10 +35,6 @@ function App(parametre1, parametre2)
     // Load DivScroll
     this.scrollNav.smoothDivScroll({
       scrollStep: 5
-    });
-    $("#animateTest a").click(function() {
-      $("div#makeMeScrollable").smoothDivScroll("moveToElement", "number", 2);
-      // this.scrollNav.smoothDivScroll("moveToElement", "number", 2);
     });
 
     return true; 
@@ -36,6 +54,13 @@ function App(parametre1, parametre2)
 
     // set start page
     StartPage.init(this.appWindow);
+    var self = this;
+    $("#animateTest a").click(function() {
+      self.moveToPosition($("#content").position().left);
+
+      // $("div#makeMeScrollable").smoothDivScroll("moveToElement", "number", 2);
+      // this.scrollNav.smoothDivScroll("moveToElement", "number", 2);
+    });
 
     // INIT the app
 
