@@ -1,9 +1,9 @@
 body {
-    background-color:#000;
+    background-image: url('../images/fond.png');
 }
 
 #content {
-	color:#FFF;
+	color:#000;
     font-family:Arial;
     margin: 0px;
     padding: 0px;
@@ -37,7 +37,7 @@ body {
 
 #makeMeScrollable div.scrollableArea {
     padding-top: 50px;
-    width: 5000px;
+    width: 10000px;
     position: relative;
     margin: 0;
     padding: 0;
@@ -74,8 +74,7 @@ div.scrollingHotSpotLeft
 /* Visible left hotspot */
 div.scrollingHotSpotLeftVisible
 {
-	background-image: url(./images/arrow_left.gif);				
-	background-color: #fff;
+	background-image: url(./images/arrow_left.gif);
 	background-repeat: no-repeat;
 	/* Standard CSS3 opacity setting */
 	opacity: 0.35; 
@@ -109,7 +108,6 @@ div.scrollingHotSpotRight
 div.scrollingHotSpotRightVisible
 {
 	background-image: url(./images/arrow_right.gif);
-	background-color: #fff;
 	background-repeat: no-repeat;
 	opacity: 0.35;
 	filter: alpha(opacity = 35);
@@ -140,18 +138,17 @@ div.scrollableArea
 
 div#home{
     float:left;
-    background-color:black;
     text-align:center;
     line-height:100px;
 }
 div#home h1{
-    color:white;
+    color:black;
     text-align:center;
     font-size:10em;
 }
 
 div#home a{
-    color:white;
+    color:black;
     font-size:1em;
 }
 
