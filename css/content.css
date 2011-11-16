@@ -1,0 +1,19 @@
+/****************
+* COMMONS
+*****************/
+div.clear {clear:both;}
+.justify {text-align: justify;}
+.center {text-align: center;}
+.right {text-align: right;}
+
+
+/****************
+* REALTIME
+*****************/
+
+#realtime {}
+#realtime h2.title {text-transform: uppercase;}
+
+
+#realtime div.part1 {width:400px;}
+#realtime div.part2 {width:140px;}

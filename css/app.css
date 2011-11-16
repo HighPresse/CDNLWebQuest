@@ -138,19 +138,19 @@ div.scrollableArea
 	height: 100%;
 }
 
-div#animateTest{
+div#home{
     float:left;
     background-color:black;
     text-align:center;
     line-height:100px;
 }
-div#animateTest h1{
+div#home h1{
     color:white;
     text-align:center;
     font-size:10em;
 }
 
-div#animateTest a{
+div#home a{
     color:white;
     font-size:1em;
 }

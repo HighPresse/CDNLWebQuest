@@ -55,7 +55,7 @@ function App(parametre1, parametre2)
     // set start page
     StartPage.init(this.appWindow);
     var self = this;
-    $("#animateTest a").click(function() {
+    $("#home a").click(function() {
       self.moveToPosition($("#content").position().left);
 
       // $("div#makeMeScrollable").smoothDivScroll("moveToElement", "number", 2);
