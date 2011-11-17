@@ -30,6 +30,7 @@ div.clear {clear:both;}
 /***************
 * FILTER
 ****************/
+#filter div{width:200px;}
 #filter h2.info{font-size:80px; margin: 0 0 80px 0px;}
 #filter h2.besite{font-size:80px; margin:0 0 85px 80px;}
 #filter h2.perso {font-size:40px; margin-left:-350px; text-align:right; padding-right:30px; color:black;}

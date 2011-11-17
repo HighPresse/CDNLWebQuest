@@ -37,7 +37,7 @@ body {
 
 #makeMeScrollable div.scrollableArea {
     padding-top: 50px;
-    width: 10000px;
+    width: 20000px;
     position: relative;
     margin: 0;
     padding: 0;
@@ -153,9 +153,9 @@ div#home a{
 }
 
 div#navBar {
-	margin-top:-20px;
+	margin-top:-200px;
 	margin-left:30px;
-	position:fixed;
+	position:absolute;
 	background:#DDD;
 	height:15px;
 }
