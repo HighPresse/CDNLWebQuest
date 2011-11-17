@@ -5,15 +5,76 @@ div.clear {clear:both;}
 .justify {text-align: justify;}
 .center {text-align: center;}
 .right {text-align: right;}
-
+.bold {font-weight:bold;}
+.noBold{font-weight:normal;}
 
 /****************
 * REALTIME
 *****************/
 
 #realtime {}
-#realtime h2.title {text-transform: uppercase;}
+#realtime .part1 h2 {font-size:50px; text-transform: uppercase; color:#FFA500; line-height:50px;}
+#realtime .part1 h2 span {text-transform: uppercase; color:black;}
+#realtime .part1 h3 {font-size:100px; margin-top:50px; color:black;}
+#realtime .part1 p {font-size:23px; margin-top:35px; line-height:30px;}
+
+#realtime .part2 div h4{font-size:30px; margin-top:50px;}
+#realtime .part2 div h3{font-size:80px; margin-bottom:20px;margin-top:-50px; background:none; padding:0; border:none;}
+#realtime .part2 div p{background:none; padding:0; border:none; color:black; margin:0;}
+#realtime .justify {width:250px;}
+
+#realtime .part2 h2{background:black; color:white; padding:0; margin-top:180px;}
+#realtime .part2 h3{background:black; color:white; padding:0; color:#FFA500; margin-left:-15px; border-top:1px solid white; padding:5px 0;}
+#realtime .part2 p{background:black; color:white; margin-left:-55px; padding:15px; border-top:1px solid white;}
+
+/***************
+* FILTER
+****************/
+#filter h2.info{font-size:80px; margin: 0 0 80px 0px;}
+#filter h2.besite{font-size:80px; margin:0 0 85px 80px;}
+#filter h2.perso {font-size:40px; margin-left:-350px; text-align:right; padding-right:30px; color:black;}
+#filter h3{font-size:60px; text-align:right; color:black; margin-bottom:20px;}
+#filter .borderedDiv{border-bottom:1px solid black; border-top:1px solid black; padding:5px; line-height:20px;}
+#filter .bold{font-size:18px; font-weight:bold;}
+#filter p img{float:left; margin-right:10px;}
+#filter .pulse img{margin-top:50px;}
+#filter .flipboard img{margin-top:15px;}
+
+/****************
+* DEVICES
+****************/
+#devices h1, h2.revolution{font-size:50px; line-height:50px;}
+#devices h2.revolution span {color:red;}
+#devices .blackBg{background:black; color:white; font-style:italic;}
+#devices .handList{list-style:none; text-align:center;}
+#devices .handList li{background:black; color:white; margin:5px 0;}
+#devices .number4 h3{font-size:160px; color:black; margin-top:50px;}
+#devices .exigences h4{font-size:40px; color:black;}
+#devices .exigences ul{list-style:none; color:black;}
+#devices .exigences li{color:black; font-size:10px;}
+#devices #part2 h3{font-size:160px; color:black;margin:50px 0;}
+#devices h2.journaux{font-size:50px; color:white; background:black; padding:30px 40px 20px 40px; text-align:center;}
+#devices h2.baisse{font-size:50px; color:red; background:black; padding:20px 40px 20px 40px; text-align:center;}
+#devices .tropChers{font-size:15px; color:white; background:black; padding:20px 40px 20px 40px; text-align:center;}
+#devices #part3 h3{font-size:100px; color:black; margin:30px 0 0 -75px;}
+#devices #part3 h3 span{font-size:25px; color:black; margin-top:-40px; width:20px;}
+#devices #part3 h3 span span{font-size:15px; color:black;}
+#devices #part3 h4{font-size:38px; color:black; margin:0 0 0 -75px;}
+#devices #part4 {text-align:center; font-size:10px;}
+#devices #part4 h2 {font-size:30px; color:black; margin-bottom:20px;}
+#devices #part6 ul {list-style:none; text-align:center; background:black;}
+#devices #part6 li {color:white;}
+#devices #part6 span {font-size:20px;}
+#devices #part6 div h2{font-size:70px;}
+#devices #part6 div p{font-size:17px; margin-top:10px;}
+#devices #part6 div ul{text-align:left; background:none;}
+#devices #part6 div li {color:black;}
+#devices #part6 h4{text-align:center; margin-bottom:0; color:#00FFFF; background:black;}
+#devices #part6 h3{text-align:center; margin-top:-10px; color:#00FFFF;background:black;}
 
 
-#realtime div.part1 {width:400px;}
-#realtime div.part2 {width:140px;}
+
+
+
+
+
