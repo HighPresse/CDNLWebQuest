@@ -45,6 +45,7 @@ body {
 }
 #makeMeScrollable div.scrollableArea .element {
   float: left;
+  position: relative;
 }
 
 
@@ -140,6 +141,7 @@ div#home{
     float:left;
     text-align:center;
     line-height:100px;
+    height: 580px;
 }
 div#home h1{
     color:black;

@@ -20,7 +20,9 @@ function App(parametre1, parametre2)
       }, {
         duration: self.configs.animate_duration,
         complete: function() {
-          // TODO, call a callback)
+          if (callback && typeof(callback) === "function") {
+            callback();
+          }
         }
     });
     // $("div#makeMeScrollable").smoothDivScroll("moveToElement", "number", 2);
@@ -45,16 +47,16 @@ function App(parametre1, parametre2)
   //
   this.init = function()
   {
+    var self = this;
     // this.autoload();
 
     // init vars
-    this.scrollNav = $("div#makeMeScrollable");
-    this.AppWindow = this.defineWindow();
-    $(window).resize(this.defineWindow());
+    self.scrollNav = $("div#makeMeScrollable");
+    self.AppWindow = self.defineWindow();
+    $(window).resize(self.defineWindow);
 
     // set start page
-    StartPage.init(this.appWindow);
-    var self = this;
+    StartPage.init(self.appWindow);
     $("#home a").click(function() {
       self.moveToPosition($("#content").position().left);
 
@@ -64,7 +66,7 @@ function App(parametre1, parametre2)
 
     // MiniFrieze Movements
     $("#navBar a").click(function() {
-      linkTitle = "#" + this.title;
+      linkTitle = "#" + $(this).attr('ref');
       self.moveToPosition($(linkTitle).position().left);
     });
 
@@ -82,6 +84,15 @@ function App(parametre1, parametre2)
       width: $(window).width(),
       height: $(window).height()
     };
+
+    var margin_top = ((($(window).height() - $('div.scrollWrapper').outerHeight()) / 2) + $(window).scrollTop()) - 50;
+    $('div.scrollWrapper').css("margin-top", (margin_top >= 0 ? margin_top : 0 )+ "px");
+
+    var page_width = $('div.scrollableArea .element').each(function(index) { 
+      page_width += $(this).width();
+    });
+    $('div.scrollableArea').width(page_width);
+
     return this.appWindow
   }
 
