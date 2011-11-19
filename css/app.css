@@ -7,8 +7,7 @@ body {
     font-family:Arial;
     margin: 0px;
     padding: 0px;
-    height:580px;
-    background:red;
+    height:100%;
 }
 
 #content div{
@@ -37,6 +36,7 @@ body {
 }
 
 #makeMeScrollable div.scrollableArea {
+    padding-top: 50px;
     width: 20000px;
     position: relative;
     margin: 0;

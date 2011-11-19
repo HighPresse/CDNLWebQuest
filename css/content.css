@@ -7,8 +7,6 @@ div.clear {clear:both;}
 .right {text-align: right;}
 .bold {font-weight:bold;}
 .noBold{font-weight:normal;}
-.upperCase{text-transform:uppercase;}
-.italic{font-style:italic;}
 
 /****************
 * REALTIME
@@ -33,39 +31,15 @@ div.clear {clear:both;}
 * FILTER
 ****************/
 #filter div{width:200px;}
-#filter #part1 {width:450px;}
-#filter #part1 h2{font-size:50px; color:black; line-height:50px; border-bottom:6px solid black;}
-#filter #part1 h3{font-size:100px; margin:20px 0 0 0; padding-bottom:20px; width:240px; color:black;}
-#filter #part1 p {margin-left:40px;}
-
-#filter #part2 p {background:black; color:white;}
-#filter #part2 img {margin:0px 0 0 -120px;}
-#filter #part2 #hbLogo {font-size:20px; background:none; color:black; margin:-30px 0 0 -40px;}
-
-#filter #part3 {width:300px;}
-#filter #part3 #logoSnopes {width:150px;}
-#filter #part3 h2 {font-size:80px; font-weight:bold; text-indent:60px; line-height:100px; margin:-30px 0 0 -110px;}
-#filter #part3 h2 span {font-size:110px;}
-
-#filter #part4 {width:550px;}
-#filter #part4 h2{font-size:50px; color:#00BFFF; line-height:50px; margin:50px 0 0 0;}
-#filter #part4 h2 span {color:black;}
-#filter #part4 img {margin:75px 0 0 100px; width:200px;}
-#filter #part4 p.justify{margin-left:100px; width:390px;}
-#filter #part4 p.italic{color:white;background:#00BFFF; padding:5px 10px; font-size:10px;}
-
-#filter #part5 {width:350px; margin-top:-100px;}
-#filter #part5 p{margin-top:75px; background:black; color:white;}
-#filter #part5 .pulse { padding:5px 10px;}
-#filter #part5 .flipboard {padding:30px 10px;}
-#filter #part5 .newsMe {padding:30px 10px;}
-#filter #part5  p img{float:left; margin-right:10px; width:100px; padding:10px;}
-#filter #part5  .pulse img{margin-top:8px; padding:2px; background:white;}
-#filter #part5  .flipboard img{margin-top:-17px; padding:2px; background:white;}
-#filter #part5  .newsMe img {margin-top:-17px; padding:2px; background:white;}
-
-#filter #part6 {margin-top:100px; padding:30px;}
-
+#filter h2.info{font-size:80px; margin: 0 0 80px 0px;}
+#filter h2.besite{font-size:80px; margin:0 0 85px 80px;}
+#filter h2.perso {font-size:40px; margin-left:-350px; text-align:right; padding-right:30px; color:black;}
+#filter h3{font-size:60px; text-align:right; color:black; margin-bottom:20px;}
+#filter .borderedDiv{border-bottom:1px solid black; border-top:1px solid black; padding:5px; line-height:20px;}
+#filter .bold{font-size:18px; font-weight:bold;}
+#filter p img{float:left; margin-right:10px;}
+#filter .pulse img{margin-top:50px;}
+#filter .flipboard img{margin-top:15px;}
 
 /****************
 * DEVICES
