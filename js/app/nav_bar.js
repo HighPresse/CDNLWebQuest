@@ -6,7 +6,7 @@ var NavBar = {
       $('#navBar').css("width", $(window).width() + "px");
 
       $('#navBar').css("position","absolute");
-      $('#navBar').css("bottom", "20px");
+      $('#navBar').css("bottom", "60px");
       $('#navBar').css("left", (($(window).width() - $('#navBar').outerWidth()) / 2) + $(window).scrollLeft() + "px");
     }
     theFunction();

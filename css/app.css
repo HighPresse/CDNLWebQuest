@@ -1,6 +1,12 @@
-body {
-    background-image: url('../images/fond.png');
-}
+html,body {
+		height: 100%;
+		overflow: hidden;
+		margin: 0;
+		background-color: #0fc8b9;
+		/* Opera */
+		background-image: url(../images/fond.svg);
+		
+	}
 
 #content {
 	color:#000;
@@ -32,7 +38,7 @@ body {
 
 #makeMeScrollable {
     width:100%;
-    height: 100%;
+    height: 580px;
     position: relative;
 }
 
@@ -61,7 +67,7 @@ div.scrollingHotSpotLeft
 	height: 100%;
 	/* There is a big background image and it's used to 
 	solve some problems I experienced in Internet Explorer 6. */
-	background-image: url(./images/big_transparent.gif);
+	background-image: url(../images/big_transparent.gif);
 	background-repeat: repeat;
 	background-position: center center;
 	position: absolute;
@@ -69,7 +75,7 @@ div.scrollingHotSpotLeft
 	left: 0;
 	/*  The first cursor url is for Firefox and other 
 	    browsers, the second is for Internet Explorer */
-	cursor: url(./images/cursors/cursor_arrow_left.cur), url(images/cursors/cursor_arrow_left.cur),w-resize;
+	cursor: url(../images/cursors/cursor_arrow_left.cur), url(../images/cursors/cursor_arrow_left.cur),w-resize;
 }
 
 /* Visible left hotspot */
@@ -96,13 +102,13 @@ div.scrollingHotSpotRight
 	min-width: 75px;
 	width: 10%;
 	height: 100%;
-	background-image: url(./images/big_transparent.gif);
+	background-image: url(../images/big_transparent.gif);
 	background-repeat: repeat;
 	background-position: center center;
 	position: absolute;
 	z-index: 200;
 	right: 0;
-	cursor: url(./images/cursors/cursor_arrow_right.cur), url(images/cursors/cursor_arrow_right.cur),e-resize;
+	cursor: url(../images/cursors/cursor_arrow_right.cur), url(../images/cursors/cursor_arrow_right.cur),e-resize;
 }
 
 /* Visible right hotspot */
@@ -162,8 +168,15 @@ div#navBarContainer {
 	background:#DDD;
 	height:15px;
 }
+div#navBarContainer li {
+	display: inline;
+	background: url(../images/nav/bouton.png) no-repeat;
+	width: 11px;
+	height: 11px;
+}
 div#navBarContainer a {
 	font-size:20px;
 	margin-right:50px;
 	line-height:5px;
+	text-decoration: none;
 }
