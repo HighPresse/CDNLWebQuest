@@ -2,8 +2,10 @@ html,body {
 	height: 100%;
 	overflow: hidden;
 	margin: 0;
-	background-color: #0fc8b9;
+	background-color: #fff;
 	background-image: url(../images/fond.svg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 }
 
 #content {
