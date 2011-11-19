@@ -1,12 +1,10 @@
 html,body {
-		height: 100%;
-		overflow: hidden;
-		margin: 0;
-		background-color: #0fc8b9;
-		/* Opera */
-		background-image: url(../images/fond.svg);
-		
-	}
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	background-color: #0fc8b9;
+	background-image: url(../images/fond.svg);
+}
 
 #content {
 	color:#000;
