@@ -57,12 +57,10 @@ function App(parametre1, parametre2)
 
     // set start page
     StartPage.init(self.appWindow);
-    $("#home a").click(function() {
-      self.moveToPosition($("#content").position().left);
+    $("#home a").click(function() { self.moveToPosition($("#content").position().left); });
 
-      // $("div#makeMeScrollable").smoothDivScroll("moveToElement", "number", 2);
-      // this.scrollNav.smoothDivScroll("moveToElement", "number", 2);
-    });
+    // set nav bar
+    NavBar.init(self.appWindow)
 
     // MiniFrieze Movements
     $("#navBar a").click(function() {
