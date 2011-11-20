@@ -29,19 +29,36 @@ div.clear {clear:both;}
 #realtime .part2 h3{background:black; color:white; padding:0; color:#FFA500; margin-left:-15px; border-top:1px solid white; padding:5px 0;}
 #realtime .part2 p{background:black; color:white; margin-left:-55px; padding:15px; border-top:1px solid white;}
 
+/****************
+* FLASH
+****************/
+#flash #part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 20px 0;}
+#flash #part1 .subtitle{border-top:solid black 1px; border-bottom:solid black 1px; padding:10px; width:605px; font-size:16px;}
+#flash #part1 .subtitle span{color:red;}
+#flash #part1 .caption {margin-top:-20px; font-size:20px; text-indent:40px;}
+#flash #part1 img {margin-top:-20px;}
+#flash #part1 #feu{margin:-250px 0 0 500px; width:150px;}
+#flash #part1 #semiocast{width:500px;}
+
+#flash #part2 .twitter{height:560px;}
+#flash #part2 ul{margin:-380px 0 0 20px; width:170px; list-style:none; }
+#flash #part2 li{color:black; padding-bottom:26px;}
+
+#flash #part3 p{width:150px; margin:-350px 0 0 -125px;color:white;}
+#flash #part3 img{margin:200px 0 0 -150px;}
 /***************
 * FILTER
 ****************/
 
 
-#filter #part1 {width:1760px; background:url(../images/5filtre/bubble.png) no-repeat;background: url('../images/5filtre/ligne-pointille.png'); background-position:bottom; padding-bottom:10px;}
-#filter #part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 50px 0; }
+#filter #part1 {width:1760px; background: url('../images/5filtre/ligne-pointille.png') no-repeat bottom; padding-bottom:10px; }
+#filter #part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 50px 0;}
 #filter #part1 h3{font-size:150px; margin:80px 0 0 0; padding-bottom:20px; width:240px; color:black;}
 #filter #part1 p {margin:30px 0 0 150px; font-size:18px; line-height:25px;}
 #filter #part1 img#people{margin:-50px 0 0 0; width:1700px;}
 #filter #part1 img#plus {margin:10px 0 0 150px;}
 
-#filter #part2 {margin-left:-600px;}
+#filter #part2 {margin-left:-1000px;}
 #filter #part2 p.justify {width:250px; background:black; color:white; margin:110px 0 0 135px; font-size:14px;}
 #filter #part2 span{color:#00BFFF;}
 #filter #part2 img#hoaxbuster {margin:100px 0 0 -100px;}
@@ -79,37 +96,6 @@ div.clear {clear:both;}
 
 
 
-/****************
-* DEVICES
-****************/
-#devices h1, h2.revolution{font-size:50px; line-height:50px;}
-#devices h2.revolution span {color:red;}
-#devices .blackBg{background:black; color:white; font-style:italic;}
-#devices .handList{list-style:none; text-align:center;}
-#devices .handList li{background:black; color:white; margin:5px 0;}
-#devices .number4 h3{font-size:160px; color:black; margin-top:50px;}
-#devices .exigences h4{font-size:40px; color:black;}
-#devices .exigences ul{list-style:none; color:black;}
-#devices .exigences li{color:black; font-size:10px;}
-#devices #part2 h3{font-size:160px; color:black;margin:50px 0;}
-#devices h2.journaux{font-size:50px; color:white; background:black; padding:30px 40px 20px 40px; text-align:center;}
-#devices h2.baisse{font-size:50px; color:red; background:black; padding:20px 40px 20px 40px; text-align:center;}
-#devices .tropChers{font-size:15px; color:white; background:black; padding:20px 40px 20px 40px; text-align:center;}
-#devices #part3 h3{font-size:100px; color:black; margin:30px 0 0 -75px;}
-#devices #part3 h3 span{font-size:25px; color:black; margin-top:-40px; width:20px;}
-#devices #part3 h3 span span{font-size:15px; color:black;}
-#devices #part3 h4{font-size:38px; color:black; margin:0 0 0 -75px;}
-#devices #part4 {text-align:center; font-size:10px;}
-#devices #part4 h2 {font-size:30px; color:black; margin-bottom:20px;}
-#devices #part6 ul {list-style:none; text-align:center; background:black;}
-#devices #part6 li {color:white;}
-#devices #part6 span {font-size:20px;}
-#devices #part6 div h2{font-size:70px;}
-#devices #part6 div p{font-size:17px; margin-top:10px;}
-#devices #part6 div ul{text-align:left; background:none;}
-#devices #part6 div li {color:black;}
-#devices #part6 h4{text-align:center; margin-bottom:0; color:#00FFFF; background:black;}
-#devices #part6 h3{text-align:center; margin-top:-10px; color:#00FFFF;background:black;}
 
 
 
