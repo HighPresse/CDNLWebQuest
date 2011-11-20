@@ -33,7 +33,8 @@ div.clear {clear:both;}
 * FILTER
 ****************/
 
-#filter #part1 {width:1200px; background:url(../images/5filtre/bubble.png) no-repeat;}
+
+#filter #part1 {width:1760px; background:url(../images/5filtre/bubble.png) no-repeat;background: url('../images/5filtre/ligne-pointille.png'); background-position:bottom; padding-bottom:10px;}
 #filter #part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 50px 0; }
 #filter #part1 h3{font-size:150px; margin:80px 0 0 0; padding-bottom:20px; width:240px; color:black;}
 #filter #part1 p {margin:30px 0 0 150px; font-size:18px; line-height:25px;}
@@ -43,24 +44,29 @@ div.clear {clear:both;}
 #filter #part2 {margin-left:-600px;}
 #filter #part2 p.justify {width:250px; background:black; color:white; margin:110px 0 0 135px; font-size:14px;}
 #filter #part2 span{color:#00BFFF;}
-#filter #part2 img {margin:100px 0 0 -100px;}
+#filter #part2 img#hoaxbuster {margin:100px 0 0 -100px;}
+#filter #part2 img#fleches{width:400px; margin:15px 0 0 -150px;}
 #filter #part2 #hbLogo {font-size:30px; background:none; color:black; margin:-40px 0 0 -10px;}
 
-#filter #part3 {width:300px;}
-#filter #part3 #logoSnopes {width:150px;}
-#filter #part3 h2 {font-size:150px; color:black; font-weight:bold; text-indent:150px; line-height:150px; margin:60px 0 0 -310px;}
+#filter #part3 {width:300px; margin-left:-50px;}
+#filter #part3 p{width:450px;font-size:18px; margin:-250px 0 0 -100px;}
+#filter #part3 #logoSnopes {width:300px; margin:50px 0 0 -100px;}
+#filter #part3 #plus {margin:-50px 0 0 325px;}
+#filter #part3 #pdf {margin:15px 0 0 225px; width:100px;}
+#filter #part3 h2 {font-size:150px; color:black; font-weight:bold; text-indent:150px; line-height:150px; margin:-10px 0 0 -310px;}
 #filter #part3 h2 span {font-size:200px;}
 
 
-#filter #part4 {width:550px;}
-#filter #part4 h2{font-size:50px; color:#00BFFF; line-height:50px; margin:50px 0 0 0;}
+#filter #part4 {width:1050px;}
+#filter #part4 h2{font-size:100px; color:#00BFFF; line-height:100px; margin:50px 0 0 0;}
 #filter #part4 h2 span {color:black;}
-#filter #part4 img {margin:75px 0 0 100px; width:200px;}
-#filter #part4 p.justify{margin-left:100px; width:390px;}
-#filter #part4 p.italic{color:white;background:#00BFFF; padding:5px 10px; font-size:10px;}
+#filter #part4 img {margin:75px 0 0 500px; width:400px;}
+#filter #part4 img#plus {margin:-100px 0 0 800px; width:auto;}
+#filter #part4 p.justify{margin-left:250px; width:530px; font-size:18px;}
+#filter #part4 p.italic{color:white;background:#00BFFF; padding:10px 10px; font-size:20px;}
 
-#filter #part5 {width:350px; margin-top:-100px;}
-#filter #part5 p{margin-top:75px; background:black; color:white;}
+#filter #part5 {width:350px; margin-top:-25px;}
+#filter #part5 p{margin-top:55px; background:black; color:white;}
 #filter #part5 .pulse { padding:5px 10px;}
 #filter #part5 .flipboard {padding:30px 10px;}
 #filter #part5 .newsMe {padding:30px 10px;}
@@ -69,7 +75,8 @@ div.clear {clear:both;}
 #filter #part5  .flipboard img{margin-top:-17px; padding:2px; background:white;}
 #filter #part5  .newsMe img {margin-top:-17px; padding:2px; background:white;}
 
-#filter #part6 {margin-top:100px; padding:30px;}
+#filter #part6 p {margin:-300px 0 0 1500px; padding:30px; width:280px; font-size:18px;}
+
 
 
 /****************
