@@ -1,55 +1,59 @@
 html,body {
-	height: 100%;
-	overflow: hidden;
-	margin: 0;
-	background-color:#f2f2f2;
-	background-image: -moz-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
-	background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
-	background-image: -o-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
-	background-image: -ms-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
-	background-image: radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  background-color:#f2f2f2;
+  background-image: -moz-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
+  background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
+  background-image: -o-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
+  background-image: -ms-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
+  background-image: radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
+}
+
+a {
+  cursor: pointer;
 }
 
 #content {
-	color:#000;
-    font-family:Arial;
-    margin: 0px;
-    padding: 0px;
-    height:580px;
-    background:red;
+  color:#000;
+  font-family:Arial;
+  margin: 0px;
+  padding: 0px;
+  height:580px;
+  background:red;
 }
 
 #content div{
-    float:left;
-    margin-right:20px;
-    margin-top:5px;
+  float:left;
+  margin-right:20px;
+  margin-top:5px;
 }
 
 .quatre{
-    width:300px;
-    height:400px;
-    overflow:hidden;
-    text-align:justify;
+  width:300px;
+  height:400px;
+  overflow:hidden;
+  text-align:justify;
 }
 .huit{
-    width:200px;
-    height:400px;
-    overflow:hidden;
-    text-align:justify;
+  width:200px;
+  height:400px;
+  overflow:hidden;
+  text-align:justify;
 }
 
 #makeMeScrollable {
-    width:100%;
-    height: 580px;
-    position: relative;
+  width:100%;
+  height: 580px;
+  position: relative;
 }
 
 #makeMeScrollable div.scrollableArea {
-    width: 20000px;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+  width: 20000px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 #makeMeScrollable div.scrollableArea .element {
   float: left;
@@ -150,6 +154,11 @@ div#home{
     text-align:center;
     line-height:100px;
     height: 580px;
+    width: 234px;
+}
+div#home div {
+	height: 351px;
+    width: 234px;
 }
 div#home h1{
     color:black;

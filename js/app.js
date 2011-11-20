@@ -56,19 +56,20 @@ function App(parametre1, parametre2)
     $(window).resize(self.defineWindow);
 
     // set start page
-    StartPage.init(self.appWindow);
-    $("#home a").click(function() { self.moveToPosition($("#content").position().left); });
+    StartPage.init(self);
 
     // set nav bar
-    NavBar.init(self.appWindow)
+    NavBar.init(self);
 
-    // MiniFrieze Movements
-    $("#navBar a").click(function() {
-      linkTitle = "#" + $(this).attr('ref');
-      self.moveToPosition($(linkTitle).position().left);
+    // jwplayer
+    jwplayer('mediaspace').setup({
+      'flashplayer': 'player.swf',
+      'file': 'http://content.longtailvideo.com/videos/flvplayer.flv',
+      'lightcolor': 'FFFFFF',
+      'controlbar': 'bottom',
+      'width': '470',
+      'height': '320'
     });
-
-    // INIT the app
 
     return true;
   }
@@ -118,5 +119,3 @@ $(window).load(function() {
 $(document).ready(function() {
   application.init();
 });
-
-
