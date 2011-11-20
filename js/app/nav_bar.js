@@ -1,5 +1,5 @@
 var NavBar = {
-  init: function(appWindow)
+  init: function(app)
   {
     var theFunction = function () {
       // $('#home').css("margin-top", (($(window).height() - $('#home').outerHeight()) / 2) + $(window).scrollTop() + "px");
@@ -11,5 +11,12 @@ var NavBar = {
     }
     theFunction();
     $(window).resize(theFunction);
+
+    // MiniFrieze Movements
+    $("#navBar a").click(function() {
+      linkTitle = "#" + $(this).attr('ref');
+      app.moveToPosition($(linkTitle).position().left);
+      return false;
+    });
   }
 }

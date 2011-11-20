@@ -46,6 +46,13 @@ div.clear {clear:both;}
 
 #flash #part3 p{width:150px; margin:-350px 0 0 -125px;color:white;}
 #flash #part3 img{margin:200px 0 0 -150px;}
+
+#flash #part4 img{margin-left:-470px; height:560px;}
+#flash #part4 ul{margin:-485px 0 0 -290px; list-style:none;}
+#flash #part4 li{color:black; padding:100px 0 0 0;}
+#flash #part4 #li2 {margin: -10px 0 0 80px;}
+#flash #part4 #li3 {margin: -15px 0 0 170px;}
+#flash #part4 #li4 {margin: -15px 0 0 260px;}
 /***************
 * FILTER
 ****************/

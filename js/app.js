@@ -56,19 +56,25 @@ function App(parametre1, parametre2)
     $(window).resize(self.defineWindow);
 
     // set start page
-    StartPage.init(self.appWindow);
-    $("#home a").click(function() { self.moveToPosition($("#content").position().left); });
+    StartPage.init(self);
 
     // set nav bar
-    NavBar.init(self.appWindow)
+    NavBar.init(self);
 
-    // MiniFrieze Movements
-    $("#navBar a").click(function() {
-      linkTitle = "#" + $(this).attr('ref');
-      self.moveToPosition($(linkTitle).position().left);
+    $(window).scroll(function () { 
+      console.log($(window).scrollTop());
+      console.log($(window).height());
     });
 
-    // INIT the app
+    // jwplayer
+    jwplayer('mediaspace').setup({
+      'flashplayer': 'player.swf',
+      'file': 'http://content.longtailvideo.com/videos/flvplayer.flv',
+      'lightcolor': 'FFFFFF',
+      'controlbar': 'bottom',
+      'width': '470',
+      'height': '320'
+    });
 
     return true;
   }
@@ -91,7 +97,9 @@ function App(parametre1, parametre2)
     });
     $('div.scrollableArea').width(page_width);
 
-    return this.appWindow
+    this.scrollNav.smoothDivScroll("recalculateScrollableArea");
+
+    return this.appWindow;
   }
 
   // Autoloader
@@ -118,5 +126,3 @@ $(window).load(function() {
 $(document).ready(function() {
   application.init();
 });
-
-
