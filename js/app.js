@@ -61,6 +61,11 @@ function App(parametre1, parametre2)
     // set nav bar
     NavBar.init(self);
 
+    $(window).scroll(function () { 
+      console.log($(window).scrollTop());
+      console.log($(window).height());
+    });
+
     // jwplayer
     jwplayer('mediaspace').setup({
       'flashplayer': 'player.swf',
@@ -92,7 +97,9 @@ function App(parametre1, parametre2)
     });
     $('div.scrollableArea').width(page_width);
 
-    return this.appWindow
+    this.scrollNav.smoothDivScroll("recalculateScrollableArea");
+
+    return this.appWindow;
   }
 
   // Autoloader
