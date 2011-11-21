@@ -23,14 +23,34 @@ div.clear {clear:both;}
 #realtime .part1 p {font-size:40px; margin-top:-35px; line-height:40px;}
 
 #realtime .part2 {margin-left:-1620px;}
-#realtime .part2 div h4{font-size:30px; margin:200px 0 0 -100px; color:#FFA500;}
-#realtime .part2 div h3{font-size:130px; background:none; padding:0; border:none; margin:50px 0 30px 2px; color:black;}
+#realtime .part2 div h4{font-size:30px; margin:200px 0 0 -100px; color:#00FFFF;}
+#realtime .part2 div h3{font-size:130px; background:none; padding:0; border:none; margin:53px 0 30px 2px; color:black;}
 #realtime .part2 div p{background:none; padding:0; border:none; color:black;}
 #realtime .part2 .justify {width:250px;}
-#realtime .part2 .marge {margin-bottom:-15px;}
+#realtime .part2 .marge {margin-bottom:40px;}
 #realtime .part2 img#apple {margin:-260px 0 0 300px;}
-#realtime .part2 img#element {margin:-250px 0 -10px 270px;}
-#realtime .part2 img#plus {margin-top:-110px;}
+#realtime .part2 img#element {margin:-400px 0 60px 270px;}
+#realtime .part2 img#plus {margin:-450px 0 110px 320px;}
+#realtime .part2 h2{color:white; font-size:50px; margin:10px 0 30px 40px;}
+#realtime .part2 h3{color:#FFA500; font-size:40px; margin:0 0 30px 10px;}
+#realtime .part2 p.trop{color:white; font-size:25px; margin-left:-20px;}
+#realtime .part2 img#fleche {margin:-205px 0 0 -130px;}
+
+#realtime .part4 {margin:-540px 0 0 0; width:1000px;}
+#realtime .part4 img#pointilles {width:620px;margin: 0 -475px -80px 352px;}
+#realtime .part4 img#coeur {margin:-50px 0 -70px -300px;}
+#realtime .part4 p.center{color:white; margin:10px 0 -10px 282px; font-size:11px;width:150px;}
+#realtime .part4 h3{color:white; font-size:50px; margin:-150px 0 0 308px;}
+#realtime .part4 .clear{margin: -50px 0 0 530px;}
+#realtime .part4 .plus{width:60px;}
+#realtime .part4 #logos{width:440px; margin:-90px 0 0 -187px;}
+#realtime .part4 #icones {width:428px; margin:0 0 0 535px;}
+#realtime .part4 #multimedia {width:950px;margin:50px 0 0 -475px;}
+
+#realtime .part5 {margin:-515px 0 0 0; }
+#realtime .part5 p{color:white; font-size:18px; text-indent:-20px; line-height:20px; margin-left:-480px;width:400px;}
+#realtime .part5 p.bold{margin:-9px 0 0 -450px;width:400px;}
+
 
 /****************
 * FLASH
@@ -40,7 +60,7 @@ div.clear {clear:both;}
 #flash .part1 .subtitle span{color:red;}
 #flash .part1 .caption {margin-top:-20px; font-size:20px; text-indent:40px;}
 #flash .part1 img {margin-top:-20px;}
-#flash .part1 #feu{margin:-250px 0 0 500px; width:150px;}
+#flash .part1 #feu{margin:-250px 0 0 500px; width:200px;}
 #flash .part1 #semiocast{width:500px;}
 
 #flash .part2 .twitter{height:560px;}
