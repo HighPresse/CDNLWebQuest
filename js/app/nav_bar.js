@@ -15,6 +15,7 @@ var NavBar = {
     // MiniFrieze Movements
     $("#navBar a").click(function() {
       linkTitle = "#" + $(this).attr('ref');
+      console.log(linkTitle + " " +$(linkTitle).position().left);
       app.moveToPosition($(linkTitle).position().left);
       return false;
     });

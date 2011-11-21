@@ -52,8 +52,8 @@ function App(parametre1, parametre2)
 
     // init vars
     self.scrollNav = $("div#makeMeScrollable");
-    self.AppWindow = self.defineWindow();
-    $(window).resize(self.defineWindow);
+    self.AppWindow = self.defineWindow(self);
+    $(window).resize(function() { self.defineWindow(self) });
 
     // set start page
     StartPage.init(self);
@@ -82,9 +82,9 @@ function App(parametre1, parametre2)
   //
   // Define window
   //
-  this.defineWindow = function()
+  this.defineWindow = function(self)
   {
-    this.appWindow = {
+    self.appWindow = {
       width: $(window).width(),
       height: $(window).height()
     };
@@ -97,9 +97,9 @@ function App(parametre1, parametre2)
     });
     $('div.scrollableArea').width(page_width);
 
-    this.scrollNav.smoothDivScroll("recalculateScrollableArea");
+    self.scrollNav.smoothDivScroll("recalculateScrollableArea");
 
-    return this.appWindow;
+    return self.appWindow;
   }
 
   // Autoloader
