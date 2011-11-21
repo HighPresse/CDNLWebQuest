@@ -1,6 +1,10 @@
 var NavBar = {
   initNavBarScroller: function(app)
   {
+    $("#navBarScroller").css({
+      'width': '100px',
+      'background-size': '100px 15px'
+    });
     $("#navBarScroller").draggable({
       containment: "#navBarScrollerContainer",
       drag: function() {
@@ -17,7 +21,7 @@ var NavBar = {
       $('#navBar').css("width", $(window).width() + "px");
 
       $('#navBar').css("position","absolute");
-      $('#navBar').css("bottom", "50px");
+      $('#navBar').css("bottom", "30px");
       $('#navBar').css("left", (($(window).width() - $('#navBar').outerWidth()) / 2) + $(window).scrollLeft() + "px");
 
       NavBar.initNavBarScroller();

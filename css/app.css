@@ -195,5 +195,6 @@ div#navBarContainer a {
 div#navBarScroller {
   background: url(../images/nav/curseur.png) no-repeat;
   width: 100px;
+  background-size: 100px 15px;
   height: 15px;
 }
