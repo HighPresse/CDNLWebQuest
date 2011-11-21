@@ -8,8 +8,8 @@ div.clear {clear:both;}
 .bold {font-weight:bold; font-family:"Neutra Bold";}
 .noBold{font-weight:normal;}
 .upperCase{text-transform:uppercase;}
-.italic{font-style:italic;}
-
+.italic{font-style:italic; font-family:"Neutra Italic";}
+.boldItalic {font-family:"Neutra Bold Italic";}
 /****************
 * REALTIME
 *****************/
@@ -76,10 +76,41 @@ div.clear {clear:both;}
 #flash .part4 #li2 {margin: -10px 0 0 80px;}
 #flash .part4 #li3 {margin: -15px 0 0 170px;}
 #flash .part4 #li4 {margin: -15px 0 0 260px;}
+
+/***************
+* DEVICES
+****************/
+
+#devices .background .structure {margin: -390px 30px 0 0; height:1170px;}
+#devices .part1 {margin:0px 0 0 -4590px;}
+#devices .part1 h2 {font-size:80px; color:black; line-height:70px; margin: 5px 0 5px 0;}
+#devices .part1 p {color:white; margin:0px 0 40px 10px; font-size:20px;}
+#devices .part1 .handList {list-style:none; margin:5px 0 0 180px;}
+#devices .part1 .handList li{color:white; font-size:15px; margin:0 0 28px 0 ; }
+#devices .part1 .exigences {list-style:none; margin-top:60px;}
+#devices .part1 .exigences li {color:black; font-size:10px;}
+
+#devices .part2 {margin:50px 0 0 -3000px;  width:700px;}
+#devices .part2 h2 { font-size:40px; color:#FF0000; margin-bottom:30px;}
+#devices .part2 p {color:white; font-size:30px; line-height:40px;}
+
+#devices .part3 {margin:290px 0 0 -1940px;}
+#devices .part3 .daily {margin-top:150px;}
+
+#devices .part4 {margin:130px 0 0 -510px;}
+#devices .part4 .internaute{list-style:none; margin:0 0 0 -285px;}
+#devices .part4 .internaute li{color:white;}
+#devices .part4 .pourcentage{list-style:none; margin:238px 0 0 300px;}
+#devices .part4 .pourcentage li{color:black; padding-bottom:25px;}
+/***************
+* BLOG
+****************/
+
+
+
 /***************
 * FILTER
 ****************/
-
 
 #filter .part1 {width:1760px; background: url('../images/5filtre/ligne-pointille.png') no-repeat bottom; padding-bottom:10px; }
 #filter .part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 -10px 0;}
