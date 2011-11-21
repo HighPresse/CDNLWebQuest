@@ -17,7 +17,7 @@ function App(parametre1, parametre2)
   {
     var self = this;
     $(".scrollingHotSpotRight, .scrollingHotSpotLeft").show();
-    $(".scrollWrapper").stop(true, true).animate({
+    $(".scrollWrapper").stop(true).animate({
         scrollLeft: posX
       },
       {
@@ -74,7 +74,7 @@ function App(parametre1, parametre2)
     // set nav bar
     NavBar.init(self);
 
-    $('.scrollableArea, .scrollWrapper').bind('animating', function(event) { self.contentIsMoving(); });
+    // $('.scrollableArea, .scrollWrapper').bind('animating', function(event) { self.contentIsMoving(); });
     $('.scrollingHotSpotRight, .scrollingHotSpotLeft').bind('mousemove', function(event) { self.contentIsMoving(); });
 
     // jwplayer

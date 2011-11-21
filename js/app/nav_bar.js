@@ -8,7 +8,8 @@ var NavBar = {
     $("#navBarScroller").draggable({
       containment: "#navBarScrollerContainer",
       drag: function() {
-        var wantPosition = (($("#navBarScroller").position().left / $("#navBar").width()) * $('#makeMeScrollable .scrollableArea').width());
+        // (-app.position / ($("#makeMeScrollable .scrollableArea").width() - $("#makeMeScrollable").width()) * $('#navBar').width());
+        var wantPosition = (($("#navBarScroller").position().left / ($("#navBar").width() - $("#navBarScroll").width())) * $('#makeMeScrollable .scrollableArea').width());
         app.moveToPosition(wantPosition);
         // console.log(wantPosition);
       }
