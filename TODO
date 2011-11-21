@@ -13,3 +13,9 @@ Debug moveToPosition. (Bug lorsque la fenêtre n'est pas en plein écran ...)
 
 ---------------------------------------------------------------------------------
 Debug navBar, apply goods dimentions
+
+Debug position of items in a navBar
+
+Debug moveToPosition()
+
+Slider: http://jqueryui.com/demos/slider/#side-scroll

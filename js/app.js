@@ -22,7 +22,11 @@ function App(parametre1, parametre2)
       },
       {
         duration: self.configs.animate_duration,
+        step: function() {
+          // self.contentIsMoving(); 
+        },
         complete: function() {
+          // NavBar.setPosition(self);
           if (callback && typeof(callback) === "function") {
             callback();
           }
@@ -86,6 +90,8 @@ function App(parametre1, parametre2)
       'width': '470',
       'height': '320'
     });
+
+    $("page-loader").hide();
 
     return true;
   }
