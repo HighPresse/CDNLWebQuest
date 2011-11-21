@@ -8,6 +8,7 @@ function App(parametre1, parametre2)
   };
   // this.autoloadFiles = ["app/start_page.js"];
   this.appWindow = {};
+  this.position = 0;
 
   //
   // Move to
@@ -15,8 +16,8 @@ function App(parametre1, parametre2)
   this.moveToPosition = function(posX, callback)
   {
     var self = this;
-    $(".scrollWrapper").animate({
-        scrollLeft: posX
+    $(".scrollableArea").animate({
+        left: -posX
       }, {
         duration: self.configs.animate_duration,
         complete: function() {
@@ -27,6 +28,16 @@ function App(parametre1, parametre2)
     });
     // $("div#makeMeScrollable").smoothDivScroll("moveToElement", "number", 2);
     // this.scrollNav.smoothDivScroll("moveToElement", "number", 2);
+  }
+
+  //
+  // Content is moving
+  //
+  this.contentIsMoving = function() {
+    var self = this;
+    self.position = $('.scrollableArea').position().left;
+
+    NavBar.setPosition(self);
   }
 
   //
@@ -61,10 +72,8 @@ function App(parametre1, parametre2)
     // set nav bar
     NavBar.init(self);
 
-    $(window).scroll(function () { 
-      console.log($(window).scrollTop());
-      console.log($(window).height());
-    });
+    $('.scrollableArea').bind('animating', function(event) { self.contentIsMoving(); });
+    $('.scrollingHotSpotRight, .scrollingHotSpotLeft').bind('mousemove', function(event) { self.contentIsMoving(); });
 
     // jwplayer
     jwplayer('mediaspace').setup({
@@ -97,7 +106,7 @@ function App(parametre1, parametre2)
     });
     $('div.scrollableArea').width(page_width);
 
-    self.scrollNav.smoothDivScroll("recalculateScrollableArea");
+    // self.scrollNav.smoothDivScroll("recalculateScrollableArea");
 
     return self.appWindow;
   }

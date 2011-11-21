@@ -1,4 +1,8 @@
 var NavBar = {
+  initNavBarScroller: function(app)
+  {
+    
+  },
   init: function(app)
   {
     var theFunction = function () {
@@ -19,5 +23,12 @@ var NavBar = {
       app.moveToPosition($(linkTitle).position().left);
       return false;
     });
+  },
+
+  setPosition: function(app)
+  {
+    var navBarPosition = (-app.position / ($("#makeMeScrollable .scrollableArea").width() - $("#makeMeScrollable").width()) * $('#navBar').width());
+    // console.log("("+-app.position+" / "+($("#makeMeScrollable .scrollableArea").width() - $("#makeMeScrollable").width())+") * "+$('#navBar').width()+" = "+navBarPosition);
+    $("#navBarScroller").css('margin-left', navBarPosition);
   }
 }
