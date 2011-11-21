@@ -23,10 +23,10 @@ function App(parametre1, parametre2)
       {
         duration: self.configs.animate_duration,
         step: function() {
-          // self.contentIsMoving(); 
+          self.contentIsMoving();
         },
         complete: function() {
-          NavBar.setPosition(self);
+          self.contentIsMoving();
           if (callback && typeof(callback) === "function") {
             callback();
           }

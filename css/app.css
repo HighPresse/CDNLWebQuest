@@ -20,7 +20,7 @@ a {
   margin: 0px;
   padding: 0px;
   height:580px;
-  background:red;
+  background: red;
 }
 
 #content div{
@@ -179,7 +179,7 @@ div#navBar {
   background:#DDD;
   height:15px;
 }
-div#navBar li {
+div#navBar .positions li {
   position: absolute;
   top: 0;
   display: inline;
@@ -206,15 +206,32 @@ div#navBarScrollerContainer {
   margin: 0 auto;
 }
 #navBarScroll .ui-slider-handle {
-  background: url(../images/nav/curseur.png) no-repeat;
   display: block;
   position: absolute;
-  width: 100px;
-  background-size: 100px 15px;
-  height: 15px;
 }
-#navBarScroll .ui-slider-handle .ui-icon {}
-
+#navBarScroll .ui-slider-handle .ui-icon {
+  display: block;
+  height: 13px;
+  width: 100%;
+  background-size: 100% 100%;
+  background: url(../images/nav/curseur.png) no-repeat;
+  background-position: 0px 1px;
+}
+div#navBar ul.labels {}
+div#navBar ul.labels li {
+  width: 326px;
+  height: 55px;
+  position: absolute;
+  top: -55px;
+  display: none;
+  background:black;
+}
+div#navBar ul.labels li.show {display: inline;}
+div#navBar ul.labels li[rel="flash"] { background: url(../images/nav/label_flash.png) no-repeat;}
+div#navBar ul.labels li[rel="devices"] { background: url(../images/nav/label_devices.png) no-repeat;}
+div#navBar ul.labels li[rel="realtime"] { background: url(../images/nav/label_realtime.png) no-repeat;}
+div#navBar ul.labels li[rel="info_participative"] { background: url(../images/nav/label_info_participative.png) no-repeat;}
+div#navBar ul.labels li[rel="filter"] { background: url(../images/nav/label_filter.png) no-repeat;}
 
 
 #page-loader {

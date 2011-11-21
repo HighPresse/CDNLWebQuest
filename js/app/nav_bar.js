@@ -79,10 +79,20 @@ var NavBar = {
   initItems: function(app) {
     $('#navBar a').each(function(index) {
       if ($(this).attr('rel') != undefined) {
-        var elt = $("#" + $(this).attr('rel'));
-        var left = ((elt.position().left + $("#makeMeScrollable").width()) / $("#makeMeScrollable .scrollableArea").width()) * $('#navBar').width();
-        console.log("#" + elt.attr('rel') + "= "+left+" = ("+(elt.position().left + $("#makeMeScrollable").width())+" / "+$("#makeMeScrollable .scrollableArea").width()+") * "+$('#navBar').width());
-        $(this).parent().css('left', left);
+        // var elt = $("#" + $(this).attr('rel'));
+        // var left = ((elt.position().left + $("#makeMeScrollable").width()) / $("#makeMeScrollable .scrollableArea").width()) * $('#navBar').width();
+        // console.log("#" + elt.attr('rel') + "= "+left+" = ("+(elt.position().left + $("#makeMeScrollable").width())+" / "+$("#makeMeScrollable .scrollableArea").width()+") * "+$('#navBar').width());
+        // $(this).parent().css('left', left);
+
+        var linkTitle = "#" + $(this).attr('rel');
+        var position = $(linkTitle).position().left + $(window).width();
+        var remainder = $(".scrollWrapper").width() - $(".scrollableArea").width();
+        var leftVal = (position + $("#makeMeScrollable").width()) === "auto" ? 0 :
+          parseInt(position + $("#makeMeScrollable").width());
+        var percentage = Math.round( leftVal / remainder * 100 );
+
+        $(this).parent().css( "left", -percentage +"%" );
+        $('ul.labels li[rel='+$(this).attr('rel')+']').css( "left", -percentage +"%" );
       }
     });
   },
@@ -95,7 +105,7 @@ var NavBar = {
       $('#navBarScrollerContainer').css("width", $(window).width() + "px");
 
       $('#navBar').css("position","absolute");
-      $('#navBar').css("bottom", "43px");
+      $('#navBar').css("bottom", "15px");
       $('#navBar').css("left", (($(window).width() - $('#navBar').outerWidth()) / 2) + $(window).scrollLeft() + "px");
     }
     theFunction(app);
