@@ -4,9 +4,9 @@ var NavBar = {
     $("#navBarScroller").draggable({
       containment: "#navBarScrollerContainer",
       drag: function() {
-        // app.moveToPosition($("#navBarScroller").position().left * 100);
         var wantPosition = (($("#navBarScroller").position().left / $("#navBar").width()) * $('#makeMeScrollable .scrollableArea').width());
-        console.log(wantPosition);
+        app.moveToPosition(wantPosition);
+        // console.log(wantPosition);
       }
     });
   },

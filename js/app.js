@@ -16,7 +16,7 @@ function App(parametre1, parametre2)
   this.moveToPosition = function(posX, callback)
   {
     var self = this;
-    $(".scrollableArea").animate({
+    $(".scrollableArea").stop(true, true).animate({
         left: -posX
       },
       {
