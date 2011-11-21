@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
   <link rel="stylesheet" href="./css/app.css" type="text/css" media="screen" charset="utf-8">
   <link rel="stylesheet" href="./css/content.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="./css/fonts.css" type="text/css" media="screen" charset="utf-8">
 
   <script src="js/jquery.js" type="text/javascript"></script>
   <script src="js/jquery.event.animate.js" type="text/javascript"></script>
@@ -20,7 +21,7 @@
   <script src="js/app.js" type="text/javascript"></script>
   <script src="js/jwplayer.js" type="text/javascript"></script>
   <script type="text/javascript">
-    $("page-loader").show();
+    $("#page-loader").show();
   </script>
 
 </head>
@@ -338,16 +339,14 @@
 
 
   <div id="navBar">
-    <div id="navBarContainer">
-      <ul>
-        <li><a href="#" ref="devices">&nbsp;&nbsp;</a></li>
-        <li><a href="#" ref="filter">&nbsp;&nbsp;</a></li>
-        <li><a href="#" ref="realtime">&nbsp;&nbsp;</a></li>
-        <li><a href="#" ref="flash">&nbsp;&nbsp;</a></li>
-      </ul>
-    </div>
     <div id="navBarScrollerContainer">
       <div id="navBarScroll"></div>
+      <ul>
+        <li><a href="#" class="navLink" rel="devices">&nbsp;&nbsp;</a></li>
+        <li><a href="#" class="navLink" rel="filter">&nbsp;&nbsp;</a></li>
+        <li><a href="#" class="navLink" rel="realtime">&nbsp;&nbsp;</a></li>
+        <li><a href="#" class="navLink" rel="flash">&nbsp;&nbsp;</a></li>
+      </ul>
     </div>
   </div>
 

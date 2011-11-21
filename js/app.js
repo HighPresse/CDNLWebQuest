@@ -26,7 +26,7 @@ function App(parametre1, parametre2)
           // self.contentIsMoving(); 
         },
         complete: function() {
-          // NavBar.setPosition(self);
+          NavBar.setPosition(self);
           if (callback && typeof(callback) === "function") {
             callback();
           }
@@ -79,7 +79,7 @@ function App(parametre1, parametre2)
     NavBar.init(self);
 
     // $('.scrollableArea, .scrollWrapper').bind('animating', function(event) { self.contentIsMoving(); });
-    $('.scrollingHotSpotRight, .scrollingHotSpotLeft').bind('mousemove', function(event) { self.contentIsMoving(); });
+    $('.scrollingHotSpotRight, .scrollingHotSpotLeft').bind('mousemove mouseover mouseup mousedown click', function(event) { self.contentIsMoving(); });
 
     // jwplayer
     jwplayer('mediaspace').setup({
@@ -91,7 +91,7 @@ function App(parametre1, parametre2)
       'height': '320'
     });
 
-    $("page-loader").hide();
+    $("#page-loader").remove();
 
     return true;
   }
