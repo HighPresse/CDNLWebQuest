@@ -5,7 +5,7 @@ div.clear {clear:both;}
 .justify {text-align: justify;}
 .center {text-align: center;}
 .right {text-align: right;}
-.bold {font-weight:bold;}
+.bold {font-weight:bold; font-family:"Neutra Bold";}
 .noBold{font-weight:normal;}
 .upperCase{text-transform:uppercase;}
 .italic{font-style:italic;}

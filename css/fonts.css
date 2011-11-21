@@ -1,4 +1,24 @@
-/* @font-face {
-	font-family: "Ma Super Fonte";
-	src: url('MaSuperFonte-Regular.ttf');
-}*/
+ @font-face {
+	font-family: "Neutra Bold";
+	src: url('./fonts/NeutraTextBold.otf');
+}
+ @font-face {
+	font-family: "Neutra Bold Italic";
+	src: url('./fonts/NeutraTextBoldItalic.otf');
+}
+ @font-face {
+	font-family: "Neutra Demi";
+	src: url('./fonts/NeutraTextDemi.otf');
+}
+ @font-face {
+	font-family: "Neutra Demi Italic";
+	src: url('./fonts/NeutraTextDemiItalic.otf');
+} 
+@font-face {
+	font-family: "Neutra";
+	src: url('./fonts/NeutraTextLight.otf');
+}
+ @font-face {
+	font-family: "Neutra Italic";
+	src: url('./fonts/NeutraTextLightItalic.otf');
+}
