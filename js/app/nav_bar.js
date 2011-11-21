@@ -121,6 +121,23 @@ var NavBar = {
       return false;
     });
 
+    // labels minifrieze
+    $("#navBar a.navLink, #navBar .labels li").mouseover(function() {
+      if ($(this).hasClass('navLink')) {
+        $('ul.labels li[rel='+$(this).attr('rel')+']').addClass('show'); 
+      }
+      else {
+        $(this).attr('rel').addClass('show');
+      }
+    }).mouseout(function(){
+      if ($(this).hasClass('navLink')) {
+        $('ul.labels li[rel='+$(this).attr('rel')+']').removeClass('show'); 
+      }
+      else {
+        $(this).attr('rel').removeClass('show');
+      }
+    });
+
     NavBar.initItems(app);
   },
 
