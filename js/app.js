@@ -16,8 +16,9 @@ function App(parametre1, parametre2)
   this.moveToPosition = function(posX, callback)
   {
     var self = this;
-    $(".scrollableArea").stop(true, true).animate({
-        left: -posX
+    $(".scrollingHotSpotRight, .scrollingHotSpotLeft").show();
+    $(".scrollWrapper").stop(true, true).animate({
+        scrollLeft: posX
       },
       {
         duration: self.configs.animate_duration,
@@ -73,7 +74,7 @@ function App(parametre1, parametre2)
     // set nav bar
     NavBar.init(self);
 
-    $('.scrollableArea').bind('animating', function(event) { self.contentIsMoving(); });
+    $('.scrollableArea, .scrollWrapper').bind('animating', function(event) { self.contentIsMoving(); });
     $('.scrollingHotSpotRight, .scrollingHotSpotLeft').bind('mousemove', function(event) { self.contentIsMoving(); });
 
     // jwplayer

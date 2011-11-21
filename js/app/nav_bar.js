@@ -25,6 +25,7 @@ var NavBar = {
     theFunction(app);
     NavBar.initNavBarScroller(app);
     $(window).resize(theFunction);
+    $(window).resize(function() {NavBar.initNavBarScroller(app);});
 
     // MiniFrieze Movements
     $("#navBar a").click(function() {
