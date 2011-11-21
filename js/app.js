@@ -18,7 +18,8 @@ function App(parametre1, parametre2)
     var self = this;
     $(".scrollableArea").animate({
         left: -posX
-      }, {
+      },
+      {
         duration: self.configs.animate_duration,
         complete: function() {
           if (callback && typeof(callback) === "function") {

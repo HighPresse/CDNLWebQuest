@@ -1,7 +1,14 @@
 var NavBar = {
   initNavBarScroller: function(app)
   {
-    
+    $("#navBarScroller").draggable({
+      containment: "#navBarScrollerContainer",
+      drag: function() {
+        // app.moveToPosition($("#navBarScroller").position().left * 100);
+        var wantPosition = (($("#navBarScroller").position().left / $("#navBar").width()) * $('#makeMeScrollable .scrollableArea').width());
+        console.log(wantPosition);
+      }
+    });
   },
   init: function(app)
   {
@@ -12,8 +19,11 @@ var NavBar = {
       $('#navBar').css("position","absolute");
       $('#navBar').css("bottom", "50px");
       $('#navBar').css("left", (($(window).width() - $('#navBar').outerWidth()) / 2) + $(window).scrollLeft() + "px");
+
+      NavBar.initNavBarScroller();
     }
-    theFunction();
+    theFunction(app);
+    NavBar.initNavBarScroller(app);
     $(window).resize(theFunction);
 
     // MiniFrieze Movements

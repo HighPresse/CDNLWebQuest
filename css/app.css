@@ -192,3 +192,8 @@ div#navBarContainer a {
   line-height:5px;
   text-decoration: none;
 }
+div#navBarScroller {
+  background: url(../images/nav/curseur.png) no-repeat;
+  width: 100px;
+  height: 15px;
+}
