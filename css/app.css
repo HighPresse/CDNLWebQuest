@@ -173,19 +173,22 @@ div#home a{
 /********************************************************************************
  * NAVIGATION VAR
  ********************************************************************************/
+div#navBar {
+  z-index: 400;
+}
 div#navBarContainer {
-	background:#DDD;
-	height:15px;
+  background:#DDD;
+  height:15px;
 }
 div#navBarContainer li {
-	display: inline;
-	background: url(../images/nav/bouton.png) no-repeat;
-	width: 11px;
-	height: 11px;
+  display: inline;
+  background: url(../images/nav/bouton.png) no-repeat;
+  width: 11px;
+  height: 11px;
 }
 div#navBarContainer a {
-	font-size:20px;
-	margin-right:50px;
-	line-height:5px;
-	text-decoration: none;
+  font-size:20px;
+  margin-right:50px;
+  line-height:5px;
+  text-decoration: none;
 }
