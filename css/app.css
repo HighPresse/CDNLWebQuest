@@ -230,7 +230,7 @@ div#navBar ul.labels li.show {display: inline;}
 div#navBar ul.labels li[rel="flash"] { background: url(../images/nav/label_flash.png) no-repeat;}
 div#navBar ul.labels li[rel="devices"] { background: url(../images/nav/label_devices.png) no-repeat;}
 div#navBar ul.labels li[rel="realtime"] { background: url(../images/nav/label_realtime.png) no-repeat;}
-div#navBar ul.labels li[rel="info_participative"] { background: url(../images/nav/label_info_participative.png) no-repeat;}
+div#navBar ul.labels li[rel="blog"] { background: url(../images/nav/label_blog.png) no-repeat;}
 div#navBar ul.labels li[rel="filter"] { background: url(../images/nav/label_filter.png) no-repeat;}
 
 
