@@ -10,11 +10,15 @@ div.clear {clear:both;}
 .upperCase{text-transform:uppercase;}
 .italic{font-style:italic; font-family:"Neutra Italic";}
 .boldItalic {font-family:"Neutra Bold Italic";}
+
 a.icones { display: block; }
-.icones {height:74px; width:57px; background-image: url('../images/logos/icone_liens.png'); background-position: 0 75px ;}
+.icones {height:74px; width:57px; background-image: url('../images/logos/icone_link.png'); background-position: 0 75px ;z-index:10; position:relative;}
 .icones:hover{background-position:0 148px;}
-.icones:visited{background-position:0 0px;}
-.plus {background-image:url('../images/logos/icone_liens.png');  z-index:10; position:relative;}
+.icones.plus {background-image:url('../images/logos/icone_link.png');}
+.icones.pdf {background-image:url('../images/logos/icone_pdf.png');}
+.icones.src {background-image:url('../images/logos/icone_src.png');}
+.icones.movie {background-image:url('../images/logos/icone_movie.png');}
+.icones.pict {background-image:url('../images/logos/icone_pict.png');}
 
 
 /****************
