@@ -150,7 +150,6 @@ div.clear {clear:both;}
 #filter .part1 p {margin:-100px 0 0 150px; font-size:18px; line-height:25px;}
 #filter .part1 #bubble{margin:-150px 0 0 -260px;}
 #filter .part1 img#people{margin:255px 0 10px -1100px; width:500px;}
-#filter .part1 img#plus {margin:10px 0 0 150px; width:50px;}
 
 #filter .part2 {margin-left:-1160px;}
 #filter .part2 p.justify {width:250px; background:black; color:white; margin:110px 0 0 135px; font-size:14px;}
@@ -162,8 +161,7 @@ div.clear {clear:both;}
 #filter .part3 {width:300px; margin-left:-600px;}
 #filter .part3 p{width:450px;font-size:18px; margin:-150px 0 0 -100px;}
 #filter .part3 #logoSnopes {width:300px; margin:50px 0 0 -100px;}
-#filter .part3 #plus {margin:-50px 0 0 325px;}
-#filter .part3 #pdf {margin:15px 0 0 225px; width:100px;}
+#filter .part3 .pdf {margin:-50px 0 130px 325px;}
 #filter .part3 #infobesite {width:580px;margin:0px 0 0 -320px;}
 #filter .part3 h2 span {font-size:200px;}
 
