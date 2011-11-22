@@ -71,10 +71,10 @@ a.icones { display: block; }
 #devices .part1 h3 span {color:#00FFFF;}
 #devices .part1 .pdf {margin:-320px 0 0 815px;}
 #devices .part1 p {color:white; margin:0px 0 35px 10px; font-size:20px;}
-#devices .part1 .handList {list-style:none; margin:5px 0 0 150px;}
+#devices .part1 .handList {list-style:none; margin:280px 0 0 150px;}
 #devices .part1 .handList li{color:white; font-size:15px; margin:0 0 28px 0 ; }
-#devices .part1 .exigences {list-style:none; margin-top:60px;}
-#devices .part1 .exigences li {color:black; font-size:10px;}
+#devices .part1 .exigences {list-style:none; margin:340px 0 0 5px;}
+#devices .part1 .exigences li {color:black; font-size:10px; line-height:14px;}
 
 #devices .part2 {margin:50px 0 0 -3000px;  width:700px;}
 #devices .part2 h2 { font-size:40px; color:#00FFFF; margin-bottom:30px;}
@@ -100,7 +100,7 @@ a.icones { display: block; }
 #blog .part2 h2{font-size:150px; color:black; line-height:80px;  width:800px;}
 #blog .part2 .pdf{margin: -90px 0 0 660px; }
 #blog .part2 h3{margin:50px 0 0 7px; font-size:45px; color:black; width:900px;}
-#blog .part2 p {margin:75px 0 0 0px; width:600px; font-size:16px;}
+#blog .part2 p {margin:75px 0 0 15px; width:600px; font-size:16px;}
 
 #blog .part3 {margin:-560px 0 0 832px;}
 #blog .part3 p {margin:432px 0 0 0px; width:250px;}
