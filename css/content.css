@@ -56,9 +56,9 @@ a.icones { display: block; }
 #realtime .part4 #icones {width:428px; margin:0 0 0 535px;}
 #realtime .part4 #multimedia {width:950px;margin:50px 0 0 -455px;}
 
-#realtime .part5 {margin:-515px 0 0 0; }
-#realtime .part5 p{color:white; font-size:18px; text-indent:-20px; line-height:20px; margin-left:-480px;width:400px;}
-#realtime .part5 p.bold{margin:-9px 0 0 -450px;width:400px;}
+#realtime .part5 {margin:-535px 0 0 0; }
+#realtime .part5 p{color:white; font-size:18px; line-height:30px; margin-left:-480px;width:400px;}
+#realtime .part5 p.bold{margin:-9px 0 0 -480px;width:400px;}
 
 
 /***************
