@@ -177,16 +177,18 @@ a.icones { display: block; }
 
 #filter .part4 {width:1050px; margin-left:0px;}
 #filter .part4 .structure {margin:-200px 0 0 -1850px; height:880px;}
-#filter .part4 .movie {margin:0px 0 0 350px;}
+#filter .part4 .liens {margin-left:400px;}
+#filter .part4 .icones {float:left; margin-top:5px;}
+#filter .part4 .movie {margin-right: 10px;float: left;margin-top: 5px;}
 #filter .part4 p.justify{margin:-550px 0 0 150px; width:480px; font-size:18px;}
-#filter .part4 p.italic{width:1168px; color:white; font-size:20px; margin: 400px 0 0 -475px;}
+#filter .part4 p.italic{width:1168px; color:white; font-size:20px; margin: 325px 0 0 -475px;}
 
 #filter .part5 {width:350px; margin:-25px 0 0 -200px;}
 #filter .part5 p{width:260px; margin:55px -65px; color:white;}
 #filter .part5 .pulse {margin-bottom:130px;}
 #filter .part5 .flipboard {margin-bottom:145px;}
 
-#filter .part6 {margin:-380px 0 0 2957px; float:left;}
+#filter .part6 {margin:-240px 0 0 2957px; float:left;}
 #filter .part6 p { padding:30px; width:280px; font-size:18px;}
 
 
