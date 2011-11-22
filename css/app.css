@@ -244,7 +244,7 @@ div#navBar ul.labels li {
   top: -55px;
   display: none;
   background:black;
-  margin-left: 6px;
+  margin-left: -10px;
 }
 div#navBar ul.labels li.show { display: inline; }
 div#navBar ul.labels li[rel="flash"] { background: url(../images/nav/label_flash.png) no-repeat; }

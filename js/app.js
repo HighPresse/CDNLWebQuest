@@ -87,14 +87,14 @@ function App(parametre1, parametre2)
     $('.scrollingHotSpotRight, .scrollingHotSpotLeft').bind('mousemove mouseover mouseup mousedown click', function(event) { self.contentIsMoving(); });
 
     // jwplayer
-    jwplayer('mediaspace').setup({
-      'flashplayer': 'player.swf',
-      'file': 'http://content.longtailvideo.com/videos/flvplayer.flv',
-      'lightcolor': 'FFFFFF',
-      'controlbar': 'bottom',
-      'width': '470',
-      'height': '320'
-    });
+    // jwplayer('mediaspace').setup({
+    //   'flashplayer': 'player.swf',
+    //   'file': 'http://content.longtailvideo.com/videos/flvplayer.flv',
+    //   'lightcolor': 'FFFFFF',
+    //   'controlbar': 'bottom',
+    //   'width': '470',
+    //   'height': '320'
+    // });
 
     $("#page-loader").remove();
 
