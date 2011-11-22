@@ -198,12 +198,11 @@ div#credits a{
 div#navBar {
   position: relative;
   z-index: 400;
-  background:#DDD;
-  height:15px;
+  height: 15px;
 }
 div#navBar .positions li {
   position: absolute;
-  top: 0;
+  top: 1px;
   display: inline;
   background: url(../images/nav/bouton.png) no-repeat;
   width: 11px;
@@ -233,7 +232,7 @@ div#navBarScrollerContainer {
 }
 #navBarScroll .ui-slider-handle .ui-icon {
   display: block;
-  height: 13px;
+  height: 12px;
   width: 100%;
   background-size: 100% 100%;
   background: url(../images/nav/curseur.png) no-repeat;
