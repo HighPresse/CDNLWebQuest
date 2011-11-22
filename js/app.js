@@ -81,6 +81,9 @@ function App(parametre1, parametre2)
     // set nav bar
     NavBar.init(self);
 
+    // init fancy box
+    $(".fancybox").fancybox();
+
     // $('.scrollableArea, .scrollWrapper').bind('animating', function(event) { self.contentIsMoving(); });
     $('.scrollingHotSpotRight, .scrollingHotSpotLeft').bind('mousemove mouseover mouseup mousedown click', function(event) { self.contentIsMoving(); });
 
