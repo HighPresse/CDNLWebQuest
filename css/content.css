@@ -69,11 +69,11 @@ a.icones { display: block; }
 #devices .part1 h2 {font-size:80px; color:black; line-height:70px; margin: 5px 0 5px 0;}
 #devices .part1 h3 {font-size:70px; color:black; line-height:60px;}
 #devices .part1 h3 span {color:#00FFFF;}
-#devices .part1 .pdf {margin:-320px 0 0 815px;}
+#devices .part1 .pdf {margin:-300px 0 0 815px;}
 #devices .part1 p {color:white; margin:0px 0 35px 10px; font-size:20px;}
-#devices .part1 .handList {list-style:none; margin:280px 0 0 150px;}
+#devices .part1 .handList {list-style:none; margin:260px 0 0 150px;}
 #devices .part1 .handList li{color:white; font-size:15px; margin:0 0 28px 0 ; }
-#devices .part1 .exigences {list-style:none; margin:340px 0 0 5px;}
+#devices .part1 .exigences {list-style:none; margin:320px 0 0 5px;}
 #devices .part1 .exigences li {color:black; font-size:10px; line-height:14px;}
 
 #devices .part2 {margin:50px 0 0 -3000px;  width:700px;}
@@ -188,7 +188,7 @@ a.icones { display: block; }
 #filter .part5 .pulse {margin-bottom:130px;}
 #filter .part5 .flipboard {margin-bottom:145px;}
 
-#filter .part6 {margin:-240px 0 0 2957px; float:left;}
+#filter .part6 {margin:-230px 0 0 2957px; float:left;}
 #filter .part6 p { padding:30px; width:280px; font-size:18px;}
 
 
