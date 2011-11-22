@@ -16,11 +16,10 @@ a {
 
 #content {
   color:#000;
-  font-family:Arial;
+  font-family:"Neutra";
   margin: 0px;
   padding: 0px;
   height:580px;
-  background: red;
 }
 
 #content div{

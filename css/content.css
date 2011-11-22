@@ -51,32 +51,6 @@ div.clear {clear:both;}
 #realtime .part5 p{color:white; font-size:18px; text-indent:-20px; line-height:20px; margin-left:-480px;width:400px;}
 #realtime .part5 p.bold{margin:-9px 0 0 -450px;width:400px;}
 
-
-/****************
-* FLASH
-****************/
-#flash .part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 20px 0;}
-#flash .part1 .subtitle{border-top:solid black 1px; border-bottom:solid black 1px; padding:10px; width:605px; font-size:16px;}
-#flash .part1 .subtitle span{color:red;}
-#flash .part1 .caption {margin-top:-20px; font-size:20px; text-indent:40px;}
-#flash .part1 img {margin-top:-20px;}
-#flash .part1 #feu{margin:-250px 0 0 500px; width:200px;}
-#flash .part1 #semiocast{width:500px;}
-
-#flash .part2 .twitter{height:560px;}
-#flash .part2 ul{margin:-380px 0 0 20px; width:170px; list-style:none; }
-#flash .part2 li{color:black; padding-bottom:26px;}
-
-#flash .part3 p{width:150px; margin:-350px 0 0 -125px;color:white;}
-#flash .part3 img{margin:200px 0 0 -150px;}
-
-#flash .part4 img{margin-left:-470px; height:560px;}
-#flash .part4 ul{margin:-485px 0 0 -290px; list-style:none;}
-#flash .part4 li{color:black; padding:100px 0 0 0;}
-#flash .part4 #li2 {margin: -10px 0 0 80px;}
-#flash .part4 #li3 {margin: -15px 0 0 170px;}
-#flash .part4 #li4 {margin: -15px 0 0 260px;}
-
 /***************
 * DEVICES
 ****************/
@@ -102,15 +76,67 @@ div.clear {clear:both;}
 #devices .part4 .internaute li{color:white;}
 #devices .part4 .pourcentage{list-style:none; margin:238px 0 0 300px;}
 #devices .part4 .pourcentage li{color:black; padding-bottom:25px;}
+
 /***************
 * BLOG
 ****************/
 
+#blog {width:2500px;}
+#blog .part1 .structure {height:590px; margin-top:-10px;}
 
+#blog .part2 {width:1500px; margin-top:-550px; }
+#blog .part2 h2{font-size:150px; color:black; line-height:80px;  width:800px;}
+#blog .part2 .pdf{margin: -80px 0 0 0px; }
+#blog .part2 h3{margin:30px 0 0 0px; font-size:45px; color:black; width:900px;}
+#blog .part2 p {margin:75px 0 0 0px; width:600px; font-size:16px;}
+
+#blog .part3 {margin:-560px 0 0 832px;}
+#blog .part3 p {margin:432px 0 0 0px; width:250px;}
+
+#blog .part4 {margin:-560px 0 0 1410px;}
+#blog .part4 p {margin:20px 0 0 0px; color:white; width:400px; font-size:15px;}
+
+#blog .part5 {margin:-560px 0 0 1850px;}
+#blog .part5 .p1 {margin:223px 0 0 0px; width:300px;}
+#blog .part5 .p2 {margin:50px 0 0 0px; width:300px;}
+
+#blog .part6 {margin:-485px 0 0 2070px;}
+#blog .part6 p.upperCase{color:white; font-size:20px;}
+#blog .part6 h2{margin:120px 0 0 197px; color:white; font-size:17px; line-height:16px;}
+#blog .part6 h3{margin: -10px 0 0 197px; color:white; font-size:15px;}
+#blog .part6 p.rue89{width:150px; color:white; font-size:10px; line-height:12px; margin-left:197px;}
+
+/****************
+* FLASH
+****************/
+
+#flash .part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 20px 0;}
+#flash .part1 .subtitle{border-top:solid black 1px; border-bottom:solid black 1px; padding:10px; width:605px; font-size:16px;}
+#flash .part1 .subtitle span{color:red;}
+#flash .part1 .caption {margin-top:-20px; font-size:20px; text-indent:40px;}
+#flash .part1 img {margin-top:-20px;}
+#flash .part1 #feu{margin:-280px 0 0 500px; width:150px;}
+#flash .part1 #semiocast{width:500px;}
+
+#flash .part2 .twitter{height:560px;}
+#flash .part2 ul{margin:-380px 0 0 20px; width:170px; list-style:none; }
+#flash .part2 li{color:black; padding-bottom:26px;}
+
+#flash .part3 p{width:150px; margin:-350px 0 0 -125px;color:white;}
+#flash .part3 img{margin:200px 0 0 -150px;}
+
+#flash .part4 img{margin-left:-470px; height:560px;}
+#flash .part4 ul{margin:-485px 0 0 -290px; list-style:none;}
+#flash .part4 li{color:black; padding:100px 0 0 0;}
+#flash .part4 #li2 {margin: -10px 0 0 80px;}
+#flash .part4 #li3 {margin: -15px 0 0 170px;}
+#flash .part4 #li4 {margin: -15px 0 0 260px;}
 
 /***************
 * FILTER
 ****************/
+
+#filter {width:3500px;}
 
 #filter .part1 {width:1760px; background: url('../images/5filtre/ligne-pointille.png') no-repeat bottom; padding-bottom:10px; }
 #filter .part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 -10px 0;}
