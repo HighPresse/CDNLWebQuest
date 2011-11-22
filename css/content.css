@@ -10,14 +10,16 @@ div.clear {clear:both;}
 .upperCase{text-transform:uppercase;}
 .italic{font-style:italic; font-family:"Neutra Italic";}
 .boldItalic {font-family:"Neutra Bold Italic";}
+a.icones { display: block; }
 .icones {height:74px; width:57px; background-image: url('../images/logos/icone_liens.png'); background-position: 0 75px ;}
 .icones:hover{background-position:0 148px;}
 .icones:visited{background-position:0 0px;}
 .plus {background-image:url('../images/logos/icone_liens.png');  z-index:10; position:relative;}
+
+
 /****************
 * REALTIME
 *****************/
-
 #realtime {}
 #realtime .part1 h2{font-size:110px; color:black; line-height:110px; margin:10px 0 -150px 0;}
 #realtime .part1 img#chrono {margin:-180px -30px -120px 730px; }
@@ -55,10 +57,10 @@ div.clear {clear:both;}
 #realtime .part5 p{color:white; font-size:18px; text-indent:-20px; line-height:20px; margin-left:-480px;width:400px;}
 #realtime .part5 p.bold{margin:-9px 0 0 -450px;width:400px;}
 
+
 /***************
 * DEVICES
 ****************/
-
 #devices .background .structure {margin: -390px 30px 0 0; height:1170px;}
 #devices .part1 {margin:0px 0 0 -4590px;}
 #devices .part1 h2 {font-size:80px; color:black; line-height:70px; margin: 5px 0 5px 0;}
@@ -84,10 +86,10 @@ div.clear {clear:both;}
 #devices .part4 .pourcentage{list-style:none; margin:238px 0 0 300px;}
 #devices .part4 .pourcentage li{color:black; padding-bottom:25px;}
 
+
 /***************
 * BLOG
 ****************/
-
 #blog {width:2500px;}
 #blog .part1 .structure {height:590px; margin-top:-10px;}
 
@@ -113,10 +115,10 @@ div.clear {clear:both;}
 #blog .part6 h3{margin: -10px 0 0 197px; color:white; font-size:15px;}
 #blog .part6 p.rue89{width:150px; color:white; font-size:10px; line-height:12px; margin-left:197px;}
 
+
 /****************
 * FLASH
 ****************/
-
 #flash .part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 20px 0;}
 #flash .part1 .subtitle{border-top:solid black 1px; border-bottom:solid black 1px; padding:10px; width:605px; font-size:16px;}
 #flash .part1 .subtitle span{color:#00FFFF;}
@@ -139,10 +141,10 @@ div.clear {clear:both;}
 #flash .part4 #li3 {margin: -15px 0 0 170px;}
 #flash .part4 #li4 {margin: -15px 0 0 260px;}
 
+
 /***************
 * FILTER
 ****************/
-
 #filter {width:3500px;}
 
 #filter .part1 {width:1760px; background: url('../images/5filtre/ligne-pointille.png') no-repeat bottom; padding-bottom:10px; }
