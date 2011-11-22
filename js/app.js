@@ -75,6 +75,9 @@ function App(parametre1, parametre2)
     // set start page
     StartPage.init(self);
 
+    // set credits page
+    CreditsPage.init(self);
+
     // set nav bar
     NavBar.init(self);
 

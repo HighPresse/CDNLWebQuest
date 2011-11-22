@@ -169,6 +169,29 @@ div#home a{
 }
 
 
+div#credits{
+    float:left;
+    text-align:center;
+    line-height:100px;
+    height: 580px;
+    width: 234px;
+}
+div#credits div {
+  height: 351px;
+    width: 234px;
+}
+div#credits h1{
+    color:black;
+    text-align:center;
+    font-size:10em;
+}
+
+div#credits a{
+    color:black;
+    font-size:1em;
+}
+
+
 /********************************************************************************
  * NAVIGATION VAR
  ********************************************************************************/
@@ -225,12 +248,12 @@ div#navBar ul.labels li {
   display: none;
   background:black;
 }
-div#navBar ul.labels li.show {display: inline;}
-div#navBar ul.labels li[rel="flash"] { background: url(../images/nav/label_flash.png) no-repeat;}
-div#navBar ul.labels li[rel="devices"] { background: url(../images/nav/label_devices.png) no-repeat;}
-div#navBar ul.labels li[rel="realtime"] { background: url(../images/nav/label_realtime.png) no-repeat;}
-div#navBar ul.labels li[rel="blog"] { background: url(../images/nav/label_blog.png) no-repeat;}
-div#navBar ul.labels li[rel="filter"] { background: url(../images/nav/label_filter.png) no-repeat;}
+div#navBar ul.labels li.show { display: inline; }
+div#navBar ul.labels li[rel="flash"] { background: url(../images/nav/label_flash.png) no-repeat; }
+div#navBar ul.labels li[rel="devices"] { background: url(../images/nav/label_devices.png) no-repeat; }
+div#navBar ul.labels li[rel="realtime"] { background: url(../images/nav/label_realtime.png) no-repeat; }
+div#navBar ul.labels li[rel="blog"] { background: url(../images/nav/label_blog.png) no-repeat; }
+div#navBar ul.labels li[rel="filter"] { background: url(../images/nav/label_filter.png) no-repeat; }
 
 
 #page-loader {
