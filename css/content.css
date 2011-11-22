@@ -112,17 +112,18 @@ a.icones { display: block; }
 #blog .part5 .p1 {margin:223px 0 0 0px; width:300px;}
 #blog .part5 .p2 {margin:50px 0 0 0px; width:300px;}
 
-#blog .part6 {margin:-485px 0 0 2070px;}
-#blog .part6 p.upperCase{color:white; font-size:20px;}
-#blog .part6 h2{margin:120px 0 0 197px; color:white; font-size:17px; line-height:16px;}
-#blog .part6 h3{margin: -10px 0 0 197px; color:white; font-size:15px;}
-#blog .part6 p.rue89{width:150px; color:white; font-size:10px; line-height:12px; margin-left:197px;}
+#blog .part6 {margin:-518px 0 0 2045px;}
+#blog .part6 p.upperCase{color:white; font-size:17px; line-height:25px;}
+#blog .part6 p.upperCase span{color:#00FFFF;}
+#blog .part6 h2{margin:110px 0 0 197px; color:white; font-size:15px; line-height:16px;}
+#blog .part6 h3{margin: -10px 0 0 232px; color:white; font-size:13px;}
+#blog .part6 p.rue89{width:200px; color:white; font-size:10px; line-height:12px; margin-left:199px;}
 
 
 /****************
 * FLASH
 ****************/
-#flash .part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 20px 0;}
+#flash .part1 h2{font-size:90px; color:black; line-height:100px; margin:10px 0 -20px 0;}
 #flash .part1 .subtitle{border-top:solid black 1px; border-bottom:solid black 1px; padding:10px; width:605px; font-size:16px;}
 #flash .part1 .subtitle span{color:#00FFFF;}
 #flash .part1 .caption {margin-top:-20px; font-size:20px; text-indent:40px;}
@@ -134,15 +135,15 @@ a.icones { display: block; }
 #flash .part2 ul{margin:-380px 0 0 20px; width:170px; list-style:none; }
 #flash .part2 li{color:black; padding-bottom:26px;}
 
-#flash .part3 p{width:150px; margin:-350px 0 0 -125px;color:white;}
+#flash .part3 p{width:150px; margin:-335px 0 0 -125px;color:white;}
 #flash .part3 img{margin:200px 0 0 -150px;}
 
 #flash .part4 img{margin-left:-470px; height:560px;}
 #flash .part4 ul{margin:-485px 0 0 -290px; list-style:none;}
 #flash .part4 li{color:black; padding:100px 0 0 0;}
-#flash .part4 #li2 {margin: -10px 0 0 80px;}
-#flash .part4 #li3 {margin: -15px 0 0 170px;}
-#flash .part4 #li4 {margin: -15px 0 0 260px;}
+#flash .part4 #li2 {text-indent:-20px;margin: -10px 0 0 100px;}
+#flash .part4 #li3 {text-indent:-20px;margin: -15px 0 0 190px;}
+#flash .part4 #li4 {text-indent:-20px;margin: -15px 0 0 280px;}
 
 
 /***************
