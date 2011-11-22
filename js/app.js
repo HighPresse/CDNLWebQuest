@@ -32,8 +32,6 @@ function App(parametre1, parametre2)
           }
         }
     });
-    // $("div#makeMeScrollable").smoothDivScroll("moveToElement", "number", 2);
-    // this.scrollNav.smoothDivScroll("moveToElement", "number", 2);
   }
 
   //
