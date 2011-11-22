@@ -10,9 +10,9 @@ div.clear {clear:both;}
 .upperCase{text-transform:uppercase;}
 .italic{font-style:italic; font-family:"Neutra Italic";}
 .boldItalic {font-family:"Neutra Bold Italic";}
-.icones {height:74px; width:57px; background-image: url('../images/logos/icone_liens.png'); background-position: 0 148px ;}
-.icones:hover{background-position:0 0px;}
-.icones:visited{background-position:0 75px;}
+.icones {height:74px; width:57px; background-image: url('../images/logos/icone_liens.png'); background-position: 0 75px ;}
+.icones:hover{background-position:0 148px;}
+.icones:visited{background-position:0 0px;}
 .plus {background-image:url('../images/logos/icone_liens.png');  z-index:10; position:relative;}
 /****************
 * REALTIME
@@ -27,7 +27,7 @@ div.clear {clear:both;}
 #realtime .part1 p {font-size:40px; margin-top:-35px; line-height:40px;}
 
 #realtime .part2 {margin-left:-1620px;}
-#realtime .part2 div h4{font-size:30px; margin:200px 0 0 -100px; color:#00FFFF;}
+#realtime .part2 div h4{font-size:30px; margin:200px 0 0 -100px; color:black;}
 #realtime .part2 div h3{font-size:130px; background:none; padding:0; border:none; margin:53px 0 30px 2px; color:black;}
 #realtime .part2 div p{background:none; padding:0; border:none; color:black;}
 #realtime .part2 .justify {width:250px;}
@@ -64,7 +64,7 @@ div.clear {clear:both;}
 #devices .part1 h2 {font-size:80px; color:black; line-height:70px; margin: 5px 0 5px 0;}
 #devices .part1 h2 span {color:#00FFFF;}
 #devices .part1 .pdf {margin:-320px 0 0 815px;}
-#devices .part1 p {color:white; margin:0px 0 40px 10px; font-size:20px;}
+#devices .part1 p {color:white; margin:0px 0 35px 10px; font-size:20px;}
 #devices .part1 .handList {list-style:none; margin:5px 0 0 150px;}
 #devices .part1 .handList li{color:white; font-size:15px; margin:0 0 28px 0 ; }
 #devices .part1 .exigences {list-style:none; margin-top:60px;}
