@@ -258,11 +258,3 @@ div#navBar ul.labels li[rel="filter"], div#navBar ul.positions li[rel="filter"] 
 div#navBar ul.labels li[rel="realtime"], div#navBar ul.positions li[rel="realtime"] { position: absolute; left: 6.5%; }
 div#navBar ul.labels li[rel="blog"], div#navBar ul.positions li[rel="blog"] { position: absolute; left: 47.5%; }
 div#navBar ul.labels li[rel="flash"], div#navBar ul.positions li[rel="flash"] { position: absolute; left: 61%; }
-
-#page-loader {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}

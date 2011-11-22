@@ -64,6 +64,10 @@ a.icones { display: block; }
 /***************
 * DEVICES
 ****************/
+#devices .background { position:relative; }
+#devices .background .animation_swf { position:absolute; top: 22px; }
+#devices .background .animation_swf.radio { left: 3652px; }
+#devices .background .animation_swf.video { left: 3422px; }
 #devices .background .structure {margin: -390px 30px 0 0; height:1170px;}
 #devices .part1 {margin:0px 0 0 -4590px;}
 #devices .part1 h2 {font-size:80px; color:black; line-height:70px; margin: 5px 0 5px 0;}
@@ -94,7 +98,9 @@ a.icones { display: block; }
 * BLOG
 ****************/
 #blog {width:2500px;}
+#blog .part1 { position:relative; }
 #blog .part1 .structure {height:590px; margin-top:-10px;}
+#blog .part1 #blog_anim { position:absolute; top: 427px; left: 22px; }
 
 #blog .part2 {width:1500px; margin-top:-550px; }
 #blog .part2 h2{font-size:150px; color:black; line-height:80px;  width:800px;}

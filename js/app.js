@@ -96,8 +96,6 @@ function App(parametre1, parametre2)
     //   'height': '320'
     // });
 
-    $("#page-loader").remove();
-
     return true;
   }
 
