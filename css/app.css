@@ -244,6 +244,7 @@ div#navBar ul.labels li {
   top: -55px;
   display: none;
   background:black;
+  margin-left: 6px;
 }
 div#navBar ul.labels li.show { display: inline; }
 div#navBar ul.labels li[rel="flash"] { background: url(../images/nav/label_flash.png) no-repeat; }
@@ -252,6 +253,11 @@ div#navBar ul.labels li[rel="realtime"] { background: url(../images/nav/label_re
 div#navBar ul.labels li[rel="blog"] { background: url(../images/nav/label_blog.png) no-repeat; }
 div#navBar ul.labels li[rel="filter"] { background: url(../images/nav/label_filter.png) no-repeat; }
 
+div#navBar ul.labels li[rel="devices"], div#navBar ul.positions li[rel="devices"] { position: absolute; left: 20.5%; }
+div#navBar ul.labels li[rel="filter"], div#navBar ul.positions li[rel="filter"] { position: absolute; left: 74%; }
+div#navBar ul.labels li[rel="realtime"], div#navBar ul.positions li[rel="realtime"] { position: absolute; left: 6.5%; }
+div#navBar ul.labels li[rel="blog"], div#navBar ul.positions li[rel="blog"] { position: absolute; left: 47.5%; }
+div#navBar ul.labels li[rel="flash"], div#navBar ul.positions li[rel="flash"] { position: absolute; left: 61%; }
 
 #page-loader {
   position: absolute;

@@ -84,15 +84,16 @@ var NavBar = {
         // console.log("#" + elt.attr('rel') + "= "+left+" = ("+(elt.position().left + $("#makeMeScrollable").width())+" / "+$("#makeMeScrollable .scrollableArea").width()+") * "+$('#navBar').width());
         // $(this).parent().css('left', left);
 
-        var linkTitle = "#" + $(this).attr('rel');
-        var position = $(linkTitle).position().left + $(window).innerWidth();
-        var remainder = $(".scrollWrapper").innerWidth() - $(".scrollableArea").innerWidth();
-        var leftVal = (position + $("#makeMeScrollable").innerWidth()) === "auto" ? 0 :
-          parseInt(position + $("#makeMeScrollable").innerWidth());
-        var percentage = Math.round( leftVal / remainder * 100 );
+        // var linkTitle = "#" + $(this).attr('rel');
+        // var position = $(linkTitle).position().left + $(window).innerWidth();
+        // var remainder = $(".scrollWrapper").innerWidth() - $(".scrollableArea").innerWidth();
+        // var leftVal = (position + $("#makeMeScrollable").innerWidth()) === "auto" ? 0 :
+        //   parseInt(position + $("#makeMeScrollable").innerWidth());
+        // var percentage = Math.round( leftVal / remainder * 100 );
 
-        $(this).parent().css( "left", -percentage +"%" );
-        $('ul.labels li[rel='+$(this).attr('rel')+']').css( "left", -percentage +"%" );
+        // $(this).parent().css( "left", percentage +"%" );
+        // console.log(percentage);
+        // $('ul.labels li[rel='+$(this).attr('rel')+']').css( "left", percentage +"%" );
       }
     });
   },
