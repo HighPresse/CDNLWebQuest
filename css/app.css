@@ -2,8 +2,22 @@ html,body {
   height: 100%;
   overflow: hidden;
   margin: 0;
-  background-image: url(../images/fond.png);
-  background-size: 100% 100%;
+  background-image: linear-gradient(bottom, rgb(168,168,168) 0%, rgb(255,255,255) 25%, rgb(255,255,255) 50%, rgb(255,255,255) 75%, rgb(168,168,168) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(168,168,168) 0%, rgb(255,255,255) 25%, rgb(255,255,255) 50%, rgb(255,255,255) 75%, rgb(168,168,168) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(168,168,168) 0%, rgb(255,255,255) 25%, rgb(255,255,255) 50%, rgb(255,255,255) 75%, rgb(168,168,168) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(168,168,168) 0%, rgb(255,255,255) 25%, rgb(255,255,255) 50%, rgb(255,255,255) 75%, rgb(168,168,168) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(168,168,168) 0%, rgb(255,255,255) 25%, rgb(255,255,255) 50%, rgb(255,255,255) 75%, rgb(168,168,168) 100%);
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(168,168,168)),
+    color-stop(0.25, rgb(255,255,255)),
+    color-stop(0.5, rgb(255,255,255)),
+    color-stop(0.75, rgb(255,255,255)),
+    color-stop(1, rgb(168,168,168))
+  );
 }
 
 a {
