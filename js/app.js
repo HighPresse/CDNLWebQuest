@@ -79,6 +79,10 @@ function App(parametre1, parametre2)
     // set nav bar
     NavBar.init(self);
 
+
+    $("a.icones.pdf").attr('target', '_blank');
+    $(".fancybox").fancybox();
+
     // $('.scrollableArea, .scrollWrapper').bind('animating', function(event) { self.contentIsMoving(); });
     $('.scrollingHotSpotRight, .scrollingHotSpotLeft').bind('mousemove mouseover mouseup mousedown click', function(event) { self.contentIsMoving(); });
 
@@ -142,9 +146,6 @@ $(window).load(function() {
 });
 
 $(document).ready(function() {
-  // init fancy box
-  $(".fancybox").fancybox();
-  $("a.icones.pdf").attr('target', '_blank');
   // init application
   application.init();
 });
