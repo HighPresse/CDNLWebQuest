@@ -35,14 +35,14 @@ a.icones { display: block; }
 #realtime .part2 {margin-left:-1620px;}
 #realtime .part2 div h4{font-size:30px; margin:200px 0 0 -100px; color:black;}
 #realtime .part2 div h3{font-size:130px; background:none; padding:0; border:none; margin:53px 0 30px 2px; color:black;}
-#realtime .part2 div p{background:none; padding:0; border:none; color:black;}
+#realtime .part2 div p{background:none; padding:0; border:none; color:black; margin:53px 0 800px 2px; }
 #realtime .part2 .justify {width:250px;}
 #realtime .part2 .marge {margin-bottom:40px;}
 #realtime .part2 img#apple {margin:-260px 0 0 300px;}
 #realtime .part2 img#element {margin:-400px 0 60px 270px;}
 #realtime .part2 .plus {margin:-190px 0 150px 320px;}
 #realtime .part2 h2{color:white; font-size:50px; margin:10px 0 30px 40px;}
-#realtime .part2 h3{color:#00FFFF;; font-size:40px; margin:0 0 30px 10px;}
+#realtime .part2 h3{color:#00FFFF; font-size:40px; margin:0 0 30px 10px;}
 #realtime .part2 p.trop{color:white; font-size:25px; margin-left:-20px;}
 #realtime .part2 img#fleche {margin:-205px 0 0 -130px;}
 
