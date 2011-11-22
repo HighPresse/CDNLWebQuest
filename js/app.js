@@ -146,6 +146,7 @@ $(window).load(function() {
 $(document).ready(function() {
   // init fancy box
   $(".fancybox").fancybox();
+  $("a.icones.pdf").attr('target', '_blank');
   // init application
   application.init();
 });

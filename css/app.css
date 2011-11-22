@@ -166,25 +166,27 @@ div#home a{
 
 
 div#credits{
-    float:left;
-    text-align:center;
-    line-height:100px;
-    height: 580px;
-    width: 234px;
+  float:left;
+  text-align:center;
+  line-height:100px;
+  height: 580px;
+  width: 234px;
 }
 div#credits div {
   height: 351px;
-    width: 234px;
+  width: 300px;
+  position: relative;
 }
-div#credits h1{
-    color:black;
-    text-align:center;
-    font-size:10em;
+div#credits h1 {
+  color:black;
+  text-align:center;
+  font-size:10em;
 }
 
-div#credits a{
-    color:black;
-    font-size:1em;
+div#credits a.pdf {
+  position: absolute;
+  right: 0px;
+  bottom: 45px;
 }
 
 

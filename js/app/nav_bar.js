@@ -85,10 +85,10 @@ var NavBar = {
         // $(this).parent().css('left', left);
 
         var linkTitle = "#" + $(this).attr('rel');
-        var position = $(linkTitle).position().left + $(window).width();
-        var remainder = $(".scrollWrapper").width() - $(".scrollableArea").width();
-        var leftVal = (position + $("#makeMeScrollable").width()) === "auto" ? 0 :
-          parseInt(position + $("#makeMeScrollable").width());
+        var position = $(linkTitle).position().left + $(window).innerWidth();
+        var remainder = $(".scrollWrapper").innerWidth() - $(".scrollableArea").innerWidth();
+        var leftVal = (position + $("#makeMeScrollable").innerWidth()) === "auto" ? 0 :
+          parseInt(position + $("#makeMeScrollable").innerWidth());
         var percentage = Math.round( leftVal / remainder * 100 );
 
         $(this).parent().css( "left", -percentage +"%" );
