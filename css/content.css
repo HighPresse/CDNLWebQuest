@@ -10,6 +10,10 @@ div.clear {clear:both;}
 .upperCase{text-transform:uppercase;}
 .italic{font-style:italic; font-family:"Neutra Italic";}
 .boldItalic {font-family:"Neutra Bold Italic";}
+.icones {height:74px; width:57px; background-image: url('../images/logos/icone_liens.png'); background-position: 0 148px ;}
+.icones:hover{background-position:0 0px;}
+.icones:visited{background-position:0 75px;}
+.plus {background-image:url('../images/logos/icone_liens.png');}
 /****************
 * REALTIME
 *****************/
@@ -30,9 +34,9 @@ div.clear {clear:both;}
 #realtime .part2 .marge {margin-bottom:40px;}
 #realtime .part2 img#apple {margin:-260px 0 0 300px;}
 #realtime .part2 img#element {margin:-400px 0 60px 270px;}
-#realtime .part2 img#plus {margin:-450px 0 110px 320px;}
+#realtime .part2 .plus {margin:-190px 0 150px 320px;}
 #realtime .part2 h2{color:white; font-size:50px; margin:10px 0 30px 40px;}
-#realtime .part2 h3{color:#FFA500; font-size:40px; margin:0 0 30px 10px;}
+#realtime .part2 h3{color:#00FFFF;; font-size:40px; margin:0 0 30px 10px;}
 #realtime .part2 p.trop{color:white; font-size:25px; margin-left:-20px;}
 #realtime .part2 img#fleche {margin:-205px 0 0 -130px;}
 
@@ -42,8 +46,8 @@ div.clear {clear:both;}
 #realtime .part4 p.center{color:white; margin:10px 0 -10px 282px; font-size:11px;width:150px;}
 #realtime .part4 h3{color:white; font-size:50px; margin:-150px 0 0 308px;}
 #realtime .part4 .clear{margin: -50px 0 0 530px;}
-#realtime .part4 .plus{width:60px;}
-#realtime .part4 #logos{width:440px; margin:-90px 0 0 -187px;}
+#realtime .part4 .plus{margin-right:10px;}
+#realtime .part4 #logos{width:440px; margin:-65px 0 0 -198px;}
 #realtime .part4 #icones {width:428px; margin:0 0 0 535px;}
 #realtime .part4 #multimedia {width:950px;margin:50px 0 0 -475px;}
 
@@ -58,14 +62,15 @@ div.clear {clear:both;}
 #devices .background .structure {margin: -390px 30px 0 0; height:1170px;}
 #devices .part1 {margin:0px 0 0 -4590px;}
 #devices .part1 h2 {font-size:80px; color:black; line-height:70px; margin: 5px 0 5px 0;}
+#devices .part1 h2 span {color:#00FFFF;}
 #devices .part1 p {color:white; margin:0px 0 40px 10px; font-size:20px;}
-#devices .part1 .handList {list-style:none; margin:5px 0 0 180px;}
+#devices .part1 .handList {list-style:none; margin:5px 0 0 150px;}
 #devices .part1 .handList li{color:white; font-size:15px; margin:0 0 28px 0 ; }
 #devices .part1 .exigences {list-style:none; margin-top:60px;}
 #devices .part1 .exigences li {color:black; font-size:10px;}
 
 #devices .part2 {margin:50px 0 0 -3000px;  width:700px;}
-#devices .part2 h2 { font-size:40px; color:#FF0000; margin-bottom:30px;}
+#devices .part2 h2 { font-size:40px; color:#00FFFF; margin-bottom:30px;}
 #devices .part2 p {color:white; font-size:30px; line-height:40px;}
 
 #devices .part3 {margin:290px 0 0 -1940px;}
@@ -112,7 +117,7 @@ div.clear {clear:both;}
 
 #flash .part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 20px 0;}
 #flash .part1 .subtitle{border-top:solid black 1px; border-bottom:solid black 1px; padding:10px; width:605px; font-size:16px;}
-#flash .part1 .subtitle span{color:red;}
+#flash .part1 .subtitle span{color:#00FFFF;}
 #flash .part1 .caption {margin-top:-20px; font-size:20px; text-indent:40px;}
 #flash .part1 img {margin-top:-20px;}
 #flash .part1 #feu{margin:-280px 0 0 500px; width:150px;}
@@ -148,7 +153,7 @@ div.clear {clear:both;}
 
 #filter .part2 {margin-left:-1160px;}
 #filter .part2 p.justify {width:250px; background:black; color:white; margin:110px 0 0 135px; font-size:14px;}
-#filter .part2 span{color:#00BFFF;}
+#filter .part2 span{color:#00FFFF;}
 #filter .part2 img#hoaxbuster {margin:100px 0 0 -100px;}
 #filter .part2 img#fleches{width:400px; margin:15px 0 0 -150px;}
 #filter .part2 #hbLogo {font-size:30px; background:none; color:black; margin:-40px 0 0 -10px;}
@@ -169,7 +174,7 @@ div.clear {clear:both;}
 #filter .part4 img#perso {width:1230px; margin:50px 0 0 -386px;}
 #filter .part4 img#ombre{width:1280px; margin:-60px 0 0 -465px;}
 #filter .part4 p.justify{margin:30px 0 0 180px; width:530px; font-size:18px;}
-#filter .part4 p.italic{width:1168px; color:white; background:#00BFFF; padding:20px; font-size:20px; margin: 0 0 0 -375px;}
+#filter .part4 p.italic{width:1168px; color:white; background:#00FFFF; padding:20px; font-size:20px; margin: 0 0 0 -375px;}
 
 #filter .part5 {width:350px; margin:-25px 0 0 -200px;}
 #filter .part5 p{margin-top:55px; background:black; color:white;}
