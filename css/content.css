@@ -40,22 +40,21 @@ a.icones { display: block; }
 #realtime .part2 .marge {margin-bottom:46px;}
 #realtime .part2 img#apple {margin:-15px 0 0px 300px;}
 #realtime .part2 img#element {margin:-400px 0 60px 238px;}
-#realtime .part2 .plus {margin:-190px 0 150px 320px;}
+#realtime .part2 .plus {margin:-190px 0 100px 320px;}
 #realtime .part2 h2{color:white; font-size:50px; margin:10px 0 30px 40px;}
 #realtime .part2 h3{color:#00FFFF; font-size:40px; margin:0 0 30px 10px;}
 #realtime .part2 p.trop{color:white; font-size:25px; margin-left:-20px;}
 #realtime .part2 img#fleche {margin:-185px 0 0 -130px;}
 
 #realtime .part4 {margin:-540px 0 0 0; width:1000px;}
-#realtime .part4 img#pointilles {width:620px;margin: 0 -475px -80px 352px;}
-#realtime .part4 img#coeur {margin:-50px 0 -70px -300px;}
-#realtime .part4 p.center{color:white; margin:10px 0 -10px 282px; font-size:11px;width:150px;}
-#realtime .part4 h3{color:white; font-size:50px; margin:-150px 0 0 308px;}
-#realtime .part4 .clear{margin: -50px 0 0 530px;}
+#realtime .part4 img#coeur {margin:50px 0 -70px 220px;}
+#realtime .part4 p.center{color:white; margin:10px 0 -10px 302px; font-size:11px;width:150px;}
+#realtime .part4 h3{color:white; font-size:50px; margin:-150px 0px 0 328px; width:50px;}
+#realtime .part4 .clear{margin: -70px 0 0 530px;}
 #realtime .part4 .plus{margin-right:10px;}
 #realtime .part4 #logos{width:440px; margin:-65px 0 0 -198px;z-index:1;}
 #realtime .part4 #icones {width:428px; margin:0 0 0 535px;}
-#realtime .part4 #multimedia {width:950px;margin:50px 0 0 -475px;}
+#realtime .part4 #multimedia {width:950px;margin:50px 0 0 -455px;}
 
 #realtime .part5 {margin:-515px 0 0 0; }
 #realtime .part5 p{color:white; font-size:18px; text-indent:-20px; line-height:20px; margin-left:-480px;width:400px;}
