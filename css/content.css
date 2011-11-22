@@ -149,7 +149,7 @@ div.clear {clear:both;}
 #filter .part1 h3{font-size:150px; margin:150px 0 0px 0; padding-bottom:20px; width:240px; color:black;}
 #filter .part1 p {margin:-100px 0 0 150px; font-size:18px; line-height:25px;}
 #filter .part1 #bubble{margin:-150px 0 0 -260px;}
-#filter .part1 img#people{margin:255px 0 10px -1100px; width:500px;}
+#filter .part1 #people{margin:255px 0 10px -1100px; width:500px;}
 #filter .part1 img#plus {margin:10px 0 0 150px; width:50px;}
 
 #filter .part2 {margin-left:-1160px;}
