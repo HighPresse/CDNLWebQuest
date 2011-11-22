@@ -2,12 +2,8 @@ html,body {
   height: 100%;
   overflow: hidden;
   margin: 0;
-  background-color:#f2f2f2;
-  background-image: -moz-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
-  background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
-  background-image: -o-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
-  background-image: -ms-radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
-  background-image: radial-gradient(50% 50%, ellipse cover, #f2f2f2, rgba(168, 168, 168, 0.7) 100%);
+  background-image: url(../images/fond.png);
+  background-size: 100% 100%;
 }
 
 a {
