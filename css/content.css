@@ -20,8 +20,10 @@ a.icones { display: block; }
 .icones.src {background-image:url('../images/logos/icone_src.png');}
 .icones.movie {background-image:url('../images/logos/icone_movie.png');}
 .icones.pict {background-image:url('../images/logos/icone_pict.png');}
-.icones.triangb{width:104px; height:63px; background-position:0 63px;background-image:url('../images/logos/icone_pyramide_bottom.png');z-index:10;}
-.icones.triangt{width:104px; height:63px; background-position:0 63px;background-image:url('../images/logos/icone_pyramide_top.png');z-index:10;}
+.icones.triangb{width:117px; height:71px; background-position:0 71px;background-image:url('../images/logos/icone_pyramide_bottom.png');z-index:10;}
+.icones.triangt{width:117px; height:71px; background-position:0 71px;background-image:url('../images/logos/icone_pyramide_top.png');z-index:10;}
+.icones.triangt.icones.d, .icones.triangb.icones.d {background-position:117px 71px;}
+.icones.triangt.icones.d:hover, .icones.triangb.icones.d:hover {background-position:117px 0px;}
 
 .icones.triangb:hover{background-position:0 0px;}
 .icones.triangt:hover{background-position:0 0px;}
@@ -95,12 +97,12 @@ a.icones { display: block; }
 #devices .part3 .daily {margin-top:150px;}
 #devices .part3 .pyramide{width:800px; position:relative; z-index:1;}
 #devices .part3 .icones {position:absolute; margin-top:-20px;}
-#devices .part3 .t1{left:-615px;}
+#devices .part3 .t1{left: -627px;bottom: -46px;}
 #devices .part3 .t2{left:815px;}
-#devices .part3 .t3{left:555px; top:-282px;}
-#devices .part3 .t4{left:-359px; top:-283px;}
-#devices .part3 .b1{left:177px; top:-490px;}
-#devices .part3 .b2{left:27px; top:-485px;}
+#devices .part3 .t3{left: 810px;bottom: -43px;}
+#devices .part3 .t4{left: -369px;top: -293px;}
+#devices .part3 .b1{left: 165px;top: -497px;}
+#devices .part3 .b2{left: 18px;top: -493px;}
 #devices .part3 .movie{left:115px;}
 
 #devices .part4 {margin:130px 0 0 -510px;position:relative;}
@@ -127,8 +129,6 @@ a.icones { display: block; }
 #blog .part3 {position:relative;}
 #blog .part3 {margin:-560px 0 0 832px;}
 #blog .part3 p {margin:432px 0 0 0px; width:250px;}
-#blog .part3 .pict {position:absolute; top: 288px;left: 125px;}
-#blog .part3 .plus {position:absolute; top: 288px;left: 358px;}
 
 #blog .part4 {margin:-560px 0 0 1410px;position:relative;}
 #blog .part4 p {margin:20px 0 0 0px; color:white; width:400px; font-size:15px;}
@@ -143,6 +143,8 @@ a.icones { display: block; }
 #blog .part6 h2{margin:110px 0 0 197px; color:white; font-size:15px; line-height:16px;}
 #blog .part6 h3{margin: -10px 0 0 232px; color:white; font-size:13px;}
 #blog .part6 p.rue89{width:200px; color:white; font-size:10px; line-height:12px; margin-left:199px;}
+#blog .part6 a.icones.plus {position:absolute; top: 165px;left: 400px;}
+#blog .part6 a.icones.plus.agoravox {position:absolute; top: 435px;left: 136px;}
 
 
 /****************
