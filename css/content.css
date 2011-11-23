@@ -13,7 +13,7 @@ div.clear {clear:both;}
 
 a.icones { display: block; }
 .icones {height:74px; width:57px; background-image: url('../images/logos/icone_link.png'); background-position: 0 75px ;z-index:10; position:relative;}
-.icones:hover{background-position:0 148px;}
+.icones:hover, a.icones:visited {background-position:0 148px;}
 .icones.plus {background-image:url('../images/logos/icone_link.png');}
 .icones.pdf {background-image:url('../images/logos/icone_pdf.png');}
 .icones.src {background-image:url('../images/logos/icone_src.png');}
