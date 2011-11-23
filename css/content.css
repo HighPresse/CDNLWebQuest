@@ -75,6 +75,7 @@ a.icones { display: block; }
 /***************
 * DEVICES
 ****************/
+#devices {margin-left:-50px;}
 #devices .background { position:relative; }
 #devices .background .animation_swf { position:absolute; top: 22px; }
 #devices .background .animation_swf.radio { left: 3652px; }
@@ -118,7 +119,7 @@ a.icones { display: block; }
 /***************
 * BLOG
 ****************/
-#blog {width:2500px;}
+#blog {width:2500px; margin-left:-60px;}
 #blog .part1 { position:relative; }
 #blog .part1 .structure {height:590px; margin-top:-10px;}
 #blog .part1 #blog_anim { position:absolute; top: 427px; left: 22px; }
@@ -182,7 +183,7 @@ a.icones { display: block; }
 /***************
 * FILTER
 ****************/
-#filter {width:3500px;}
+#filter {width:3500px; margin-left:-30px;}
 
 #filter .part1 {width:1760px; background: url('../images/5filtre/ligne-pointille.png') no-repeat bottom; padding-bottom:10px; }
 #filter .part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 -10px 0;}
