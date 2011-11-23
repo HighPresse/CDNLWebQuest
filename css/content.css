@@ -47,8 +47,8 @@ a.icones { display: block; }
 #realtime .part2 img#element {margin:-400px 0 60px 238px;}
 #realtime .part2 .pict {margin:-190px 0 100px 320px;}
 #realtime .part2 h2{color:white; font-size:50px; margin:10px 0 30px 40px;}
-#realtime .part2 h3{color:#00FFFF; font-size:40px; margin:0 0 30px 10px;}
-#realtime .part2 p.trop{color:white; font-size:25px; margin-left:-20px;}
+#realtime .part2 h3{color:#00FFFF; font-size:40px; margin:0 0 30px 10px; }
+#realtime .part2 p.trop{color:white; font-size:25px; margin-left:-20px; }
 #realtime .part2 img#fleche {margin:-185px 0 0 -130px;}
 
 #realtime .part4 {margin:-540px 0 0 0; width:1000px;}
