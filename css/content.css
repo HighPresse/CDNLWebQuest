@@ -98,8 +98,8 @@ a.icones { display: block; }
 #devices .part3 .pyramide{width:800px; position:relative; z-index:1;}
 #devices .part3 .icones {position:absolute; margin-top:-20px;}
 #devices .part3 .t1{left: -627px;bottom: -46px;}
-#devices .part3 .t2{left:815px;}
-#devices .part3 .t3{left: 810px;bottom: -43px;}
+#devices .part3 .t2{left: 810px;bottom: -43px;}
+#devices .part3 .t3{left: 557px;bottom: 241px;}
 #devices .part3 .t4{left: -369px;top: -293px;}
 #devices .part3 .b1{left: 165px;top: -497px;}
 #devices .part3 .b2{left: 18px;top: -493px;}
