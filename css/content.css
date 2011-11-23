@@ -54,6 +54,9 @@ a.icones { display: block; }
 #realtime .part2 p.trop{color:white; font-size:25px; margin-left:-20px; }
 #realtime .part2 img#fleche {margin:-185px 0 0 -130px;}
 
+#realtime .part3 {position:relative;}
+#realtime .part3 #anim_realtime_2 {position:absolute; top: -540px;left: -12px;}
+
 #realtime .part4 {margin:-540px 0 0 0; width:1000px;}
 #realtime .part4 img#coeur {margin:50px 0 -70px 220px;}
 #realtime .part4 p.center{color:white; margin:10px 0 -10px 302px; font-size:11px;width:150px;}
