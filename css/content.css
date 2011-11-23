@@ -108,8 +108,11 @@ a.icones { display: block; }
 #blog .part2 h3{margin:50px 0 0 7px; font-size:45px; color:black; width:900px;}
 #blog .part2 p {margin:75px 0 0 15px; width:600px; font-size:16px;}
 
+#blog .part3 {position:relative;}
 #blog .part3 {margin:-560px 0 0 832px;}
 #blog .part3 p {margin:432px 0 0 0px; width:250px;}
+#blog .part3 .pict {position:absolute; top: 288px;left: 125px;}
+#blog .part3 .plus {position:absolute; top: 288px;left: 358px;}
 
 #blog .part4 {margin:-560px 0 0 1410px;}
 #blog .part4 p {margin:20px 0 0 0px; color:white; width:400px; font-size:15px;}
