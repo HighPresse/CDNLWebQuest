@@ -118,7 +118,7 @@ a.icones { display: block; }
 #blog .part5 .p1 {margin:223px 0 0 0px; width:300px;}
 #blog .part5 .p2 {margin:50px 0 0 0px; width:300px;}
 
-#blog .part6 {margin:-518px 0 0 2045px;}
+#blog .part6 {margin:-518px 0 0 2045px;position:relative;}
 #blog .part6 p.upperCase{color:white; font-size:17px; line-height:25px;}
 #blog .part6 p.upperCase span{color:#00FFFF;}
 #blog .part6 h2{margin:110px 0 0 197px; color:white; font-size:15px; line-height:16px;}
