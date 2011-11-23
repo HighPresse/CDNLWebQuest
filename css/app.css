@@ -168,6 +168,8 @@ div#home a{
     font-size:1em;
 }
 
+div#home p{width:300px; margin-left:-35px;}
+
 
 div#credits{
   float:left;

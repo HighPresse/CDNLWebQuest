@@ -12,8 +12,9 @@ div.clear {clear:both;}
 .boldItalic {font-family:"Neutra Bold Italic";}
 
 a.icones { display: block; }
-.icones {height:74px; width:57px; background-image: url('../images/logos/icone_link.png'); background-position: 0 75px ;z-index:10; position:relative;}
+.icones {height:74px; width:57px; background-image: url('../images/logos/icone_link.png'); background-position: 0 74px ;z-index:10; position:relative;}
 .icones:hover, a.icones:visited {background-position:0 148px;}
+
 .icones.plus {background-image:url('../images/logos/icone_link.png');}
 .icones.pdf {background-image:url('../images/logos/icone_pdf.png');}
 .icones.src {background-image:url('../images/logos/icone_src.png');}
@@ -150,7 +151,7 @@ a.icones { display: block; }
 #flash .part1 {position:relative;}
 #flash .part1 h2{font-size:90px; color:black; line-height:100px; margin:10px 0 -20px 0;}
 #flash .part1 .subtitle{border-top:solid black 1px; border-bottom:solid black 1px; padding:10px; width:605px; font-size:16px;}
-#flash .part1 .subtitle span{color:#00FFFF;}
+#flash .part1 .subtitle span{color:black;}
 #flash .part1 .caption {margin-top:-20px; font-size:20px; text-indent:40px;}
 #flash .part1 img {margin-top:-20px;}
 #flash .part1 #feu{margin:-280px 0 0 500px; width:150px;}
