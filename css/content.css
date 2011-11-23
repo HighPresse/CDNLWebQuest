@@ -129,6 +129,7 @@ a.icones { display: block; }
 /****************
 * FLASH
 ****************/
+#flash .part1 {position:relative;}
 #flash .part1 h2{font-size:90px; color:black; line-height:100px; margin:10px 0 -20px 0;}
 #flash .part1 .subtitle{border-top:solid black 1px; border-bottom:solid black 1px; padding:10px; width:605px; font-size:16px;}
 #flash .part1 .subtitle span{color:#00FFFF;}
@@ -136,6 +137,7 @@ a.icones { display: block; }
 #flash .part1 img {margin-top:-20px;}
 #flash .part1 #feu{margin:-280px 0 0 500px; width:150px;}
 #flash .part1 #semiocast{width:500px;}
+#flash .part1 .pdf {position:absolute; bottom: 4px; top: 466px; right: -49px;}
 
 #flash .part2 .twitter{height:560px;}
 #flash .part2 ul{margin:-380px 0 0 20px; width:170px; list-style:none; }
@@ -144,6 +146,7 @@ a.icones { display: block; }
 #flash .part3 p{width:150px; margin:-335px 0 0 -125px;color:white;}
 #flash .part3 img{margin:200px 0 0 -150px;}
 
+#flash .part4 {position:relative;}
 #flash .part4 img{margin-left:-470px; height:560px;}
 #flash .part4 ul{margin:-485px 0 0 -290px; list-style:none;}
 #flash .part4 li{color:black; padding:100px 0 0 0;}
