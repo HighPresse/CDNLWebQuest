@@ -19,6 +19,11 @@ a.icones { display: block; }
 .icones.src {background-image:url('../images/logos/icone_src.png');}
 .icones.movie {background-image:url('../images/logos/icone_movie.png');}
 .icones.pict {background-image:url('../images/logos/icone_pict.png');}
+.icones.triangb{width:104px; height:63px; background-position:0 63px;background-image:url('../images/logos/icone_pyramide_bottom.png');z-index:10;}
+.icones.triangt{width:104px; height:63px; background-position:0 63px;background-image:url('../images/logos/icone_pyramide_top.png');z-index:10;}
+
+.icones.triangb:hover{background-position:0 0px;}
+.icones.triangt:hover{background-position:0 0px;}
 
 
 /****************
@@ -86,6 +91,14 @@ a.icones { display: block; }
 
 #devices .part3 {margin:290px 0 0 -1940px;}
 #devices .part3 .daily {margin-top:150px;}
+#devices .part3 .pyramide{width:800px; position:relative; z-index:1;}
+#devices .part3 .icones {position:absolute; margin-top:-20px;}
+#devices .part3 .t1{left:-615px;}
+#devices .part3 .t2{left:815px;}
+#devices .part3 .t3{left:555px; top:-282px;}
+#devices .part3 .t4{left:-359px; top:-283px;}
+#devices .part3 .b1{left:177px; top:-490px;}
+#devices .part3 .b2{left:27px; top:-485px;}
 
 #devices .part4 {margin:130px 0 0 -510px;}
 #devices .part4 .internaute{list-style:none; margin:0 0 0 -285px;}
