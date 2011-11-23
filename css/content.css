@@ -90,6 +90,7 @@ a.icones { display: block; }
 #devices .part2 p {color:white; font-size:30px; line-height:40px;}
 
 #devices .part3 {margin:290px 0 0 -1940px;}
+#devices .part3 p {margin-left:-510px;}
 #devices .part3 .daily {margin-top:150px;}
 #devices .part3 .pyramide{width:800px; position:relative; z-index:1;}
 #devices .part3 .icones {position:absolute; margin-top:-20px;}
@@ -99,6 +100,7 @@ a.icones { display: block; }
 #devices .part3 .t4{left:-359px; top:-283px;}
 #devices .part3 .b1{left:177px; top:-490px;}
 #devices .part3 .b2{left:27px; top:-485px;}
+#devices .part3 .movie{left:115px;}
 
 #devices .part4 {margin:130px 0 0 -510px;}
 #devices .part4 .internaute{list-style:none; margin:0 0 0 -285px;}
