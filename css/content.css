@@ -57,7 +57,8 @@ a.icones { display: block; }
 #realtime .part3 {position:relative;}
 #realtime .part3 #anim_realtime_2 {position:absolute; top: -540px;left: -12px;}
 
-#realtime .part4 {margin:-540px 0 0 0; width:1000px;}
+.gecko #realtime .part4 {position:relative; left:-1040px; width:1000px;}
+.webkit #realtime .part4 {margin: -540px 0 0 0px; width:1000px;}
 #realtime .part4 img#coeur {margin:50px 0 -70px 220px;}
 #realtime .part4 p.center{color:white; margin:10px 0 -10px 302px; font-size:11px;width:150px;}
 #realtime .part4 h3{color:white; font-size:50px; margin:-150px 0px 0 328px; width:50px;}
@@ -75,6 +76,7 @@ a.icones { display: block; }
 /***************
 * DEVICES
 ****************/
+.gecko #devices {position:relative; left:-1100px;}
 #devices {margin-left:-50px;}
 #devices .background { position:relative; }
 #devices .background .animation_swf { position:absolute; top: 22px; }
@@ -119,6 +121,7 @@ a.icones { display: block; }
 /***************
 * BLOG
 ****************/
+.gecko #blog {position:relative; left:-1150px;}
 #blog {width:2500px; margin-left:-60px;}
 #blog .part1 { position:relative; }
 #blog .part1 .structure {height:590px; margin-top:-10px;}
@@ -154,6 +157,7 @@ a.icones { display: block; }
 /****************
 * FLASH
 ****************/
+.gecko #flash {position:relative; left:-1150px;}
 #flash .part1 {position:relative;}
 #flash .part1 h2{font-size:90px; color:black; line-height:100px; margin:10px 0 -20px 0;}
 #flash .part1 .subtitle{border-top:solid black 1px; border-bottom:solid black 1px; padding:10px; width:605px; font-size:16px;}
@@ -184,6 +188,7 @@ a.icones { display: block; }
 * FILTER
 ****************/
 #filter {width:3500px; margin-left:-30px;}
+.gecko #filter{position:relative; left:-1187px;}
 
 #filter .part1 {width:1760px; background: url('../images/5filtre/ligne-pointille.png') no-repeat bottom; padding-bottom:10px; }
 #filter .part1 h2{font-size:90px; color:black; line-height:80px; margin:10px 0 -10px 0;}
